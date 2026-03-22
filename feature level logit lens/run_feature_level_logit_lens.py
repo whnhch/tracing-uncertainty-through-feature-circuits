@@ -13,7 +13,7 @@ from logit_lens import (
 )
 from models.transcoder import Transcoder
 from train.train_transcoder import train_transcoder
-
+from util import set_environment, set_random_seed
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run feature-level logit lens training.")
@@ -75,6 +75,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--l1-coefficient", type=float, default=1e-3, help="L1 penalty coefficient on features.")
     parser.add_argument("--device", type=str, default="cpu", help="Device to train on (e.g. cpu, cuda).")
     parser.add_argument("--seed", type=int, default=42, help="Random seed.")
+    parser.add_argument("--transformer_path", type=str, default="", help="Path to transformer model.")
     parser.add_argument("--text-file", type=str, default="", help="Optional text file containing one sentence.")
     parser.add_argument("--save-path", type=str, default="", help="Optional path to save model weights.")
     return parser.parse_args()
@@ -99,8 +100,9 @@ def _load_transcoder_from_checkpoint(checkpoint_path: Path, device: torch.device
 
 def main() -> None:
     args = parse_args()
-    torch.manual_seed(args.seed)
-
+    set_environment(transformer_path=args.transformer_path, hf_token_path=None)
+    set_random_seed(args.seed)
+    
     sentence = "Uncertainty can be traced through feature circuits in neural language models."
 
     if args.text_file:

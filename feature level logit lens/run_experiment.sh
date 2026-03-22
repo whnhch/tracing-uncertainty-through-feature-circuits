@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+TRANSFORMER_PATH="/scratch/general/nfs1/u1472329/cache/" # change this to your scratch path (or you can use mine as it is publicly readable)
+export HF_HOME=$TRANSFORMER_PATH
+
+MODEL_NAME="Qwen/Qwen3.5-0.8B" # change this to your desired model 
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TEXT_FILE="${SCRIPT_DIR}/data/input_sentence.txt"
 TRANSCODER_CKPT="${SCRIPT_DIR}/models/transcoder.pt"
@@ -22,7 +27,8 @@ if [[ -f "${TRANSCODER_CKPT}" ]]; then
 fi
 
 python "${SCRIPT_DIR}/run_feature_level_logit_lens.py" \
-	--model-name "gpt2" \
+	--transformer_path "${TRANSFORMER_PATH}" \
+	--model-name "Qwen/Qwen3.5-0.8B" \
 	--text-file "${TEXT_FILE}" \
 	--plot-path "${SCRIPT_DIR}/data/logit_lens_next_token.png" \
 	--summary-path "${SCRIPT_DIR}/data/logit_lens_summary.txt" \
