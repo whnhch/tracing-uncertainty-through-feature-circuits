@@ -1,0 +1,709 @@
+Model: Qwen/Qwen3.5-27B
+Prompt: 1+1=
+Target token: '2' (resolved='2', id=17)
+
+Per-layer local top features:
+Layer 1
+  rank= 1 feature=    7 act=0.000000 prob=0.000004
+  rank= 2 feature=    6 act=0.000000 prob=0.000004
+  rank= 3 feature=    4 act=0.000000 prob=0.000004
+  rank= 4 feature=    5 act=0.000000 prob=0.000004
+  rank= 5 feature=    1 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    9 act=0.000000 prob=0.000004
+Layer 2
+  rank= 1 feature=    7 act=0.000000 prob=0.000004
+  rank= 2 feature=    6 act=0.000000 prob=0.000004
+  rank= 3 feature=    4 act=0.000000 prob=0.000004
+  rank= 4 feature=    5 act=0.000000 prob=0.000004
+  rank= 5 feature=    1 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    9 act=0.000000 prob=0.000004
+Layer 3
+  rank= 1 feature=    7 act=0.000000 prob=0.000004
+  rank= 2 feature=    6 act=0.000000 prob=0.000004
+  rank= 3 feature=    4 act=0.000000 prob=0.000004
+  rank= 4 feature=    5 act=0.000000 prob=0.000004
+  rank= 5 feature=    1 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    9 act=0.000000 prob=0.000004
+Layer 4
+  rank= 1 feature=    7 act=0.000000 prob=0.000004
+  rank= 2 feature=    6 act=0.000000 prob=0.000004
+  rank= 3 feature=    4 act=0.000000 prob=0.000004
+  rank= 4 feature=    5 act=0.000000 prob=0.000004
+  rank= 5 feature=    1 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    9 act=0.000000 prob=0.000004
+Layer 5
+  rank= 1 feature=    7 act=0.000000 prob=0.000004
+  rank= 2 feature=    6 act=0.000000 prob=0.000004
+  rank= 3 feature=    4 act=0.000000 prob=0.000004
+  rank= 4 feature=    5 act=0.000000 prob=0.000004
+  rank= 5 feature=    1 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    9 act=0.000000 prob=0.000004
+Layer 6
+  rank= 1 feature=    7 act=0.000000 prob=0.000004
+  rank= 2 feature=    6 act=0.000000 prob=0.000004
+  rank= 3 feature=    4 act=0.000000 prob=0.000004
+  rank= 4 feature=    5 act=0.000000 prob=0.000004
+  rank= 5 feature=    1 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    9 act=0.000000 prob=0.000004
+Layer 7
+  rank= 1 feature=    7 act=0.000000 prob=0.000004
+  rank= 2 feature=    6 act=0.000000 prob=0.000004
+  rank= 3 feature=    4 act=0.000000 prob=0.000004
+  rank= 4 feature=    5 act=0.000000 prob=0.000004
+  rank= 5 feature=    1 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    9 act=0.000000 prob=0.000004
+Layer 8
+  rank= 1 feature=    7 act=0.000000 prob=0.000004
+  rank= 2 feature=    6 act=0.000000 prob=0.000004
+  rank= 3 feature=    4 act=0.000000 prob=0.000004
+  rank= 4 feature=    5 act=0.000000 prob=0.000004
+  rank= 5 feature=    1 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    9 act=0.000000 prob=0.000004
+Layer 9
+  rank= 1 feature= 3280 act=0.005052 prob=0.000003
+  rank= 2 feature=    1 act=0.000000 prob=0.000004
+  rank= 3 feature=    3 act=0.000000 prob=0.000004
+  rank= 4 feature=    6 act=0.000000 prob=0.000004
+  rank= 5 feature=    7 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    5 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    4 act=0.000000 prob=0.000004
+Layer 10
+  rank= 1 feature= 3280 act=0.031747 prob=0.000001
+  rank= 2 feature=    1 act=0.000000 prob=0.000004
+  rank= 3 feature=    3 act=0.000000 prob=0.000004
+  rank= 4 feature=    6 act=0.000000 prob=0.000004
+  rank= 5 feature=    7 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    5 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    4 act=0.000000 prob=0.000004
+Layer 11
+  rank= 1 feature=    7 act=0.000000 prob=0.000004
+  rank= 2 feature=    6 act=0.000000 prob=0.000004
+  rank= 3 feature=    4 act=0.000000 prob=0.000004
+  rank= 4 feature=    5 act=0.000000 prob=0.000004
+  rank= 5 feature=    1 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    9 act=0.000000 prob=0.000004
+Layer 12
+  rank= 1 feature= 2866 act=0.145349 prob=0.000009
+  rank= 2 feature=    1 act=0.000000 prob=0.000004
+  rank= 3 feature=    3 act=0.000000 prob=0.000004
+  rank= 4 feature=    6 act=0.000000 prob=0.000004
+  rank= 5 feature=    7 act=0.000000 prob=0.000004
+  rank= 6 feature=    0 act=0.000000 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    5 act=0.000000 prob=0.000004
+  rank= 9 feature=    8 act=0.000000 prob=0.000004
+  rank=10 feature=    4 act=0.000000 prob=0.000004
+Layer 13
+  rank= 1 feature= 2866 act=0.108691 prob=0.000009
+  rank= 2 feature= 3280 act=0.047295 prob=0.000000
+  rank= 3 feature=    0 act=0.000000 prob=0.000004
+  rank= 4 feature=    1 act=0.000000 prob=0.000004
+  rank= 5 feature=    6 act=0.000000 prob=0.000004
+  rank= 6 feature=    7 act=0.000000 prob=0.000004
+  rank= 7 feature=    5 act=0.000000 prob=0.000004
+  rank= 8 feature=    4 act=0.000000 prob=0.000004
+  rank= 9 feature=    2 act=0.000000 prob=0.000004
+  rank=10 feature=    3 act=0.000000 prob=0.000004
+Layer 14
+  rank= 1 feature= 3280 act=0.200267 prob=0.000000
+  rank= 2 feature= 2866 act=0.098064 prob=0.000009
+  rank= 3 feature= 1597 act=0.019801 prob=0.000006
+  rank= 4 feature= 3079 act=0.017172 prob=0.000006
+  rank= 5 feature= 1542 act=0.009885 prob=0.000004
+  rank= 6 feature=    3 act=0.000000 prob=0.000004
+  rank= 7 feature=    4 act=0.000000 prob=0.000004
+  rank= 8 feature=    2 act=0.000000 prob=0.000004
+  rank= 9 feature=    0 act=0.000000 prob=0.000004
+  rank=10 feature=    1 act=0.000000 prob=0.000004
+Layer 15
+  rank= 1 feature= 2866 act=0.417593 prob=0.000008
+  rank= 2 feature= 1542 act=0.316971 prob=0.000001
+  rank= 3 feature= 1597 act=0.313539 prob=0.000004
+  rank= 4 feature= 3280 act=0.272152 prob=0.000000
+  rank= 5 feature= 1535 act=0.184028 prob=0.000005
+  rank= 6 feature=    3 act=0.000000 prob=0.000004
+  rank= 7 feature=    4 act=0.000000 prob=0.000004
+  rank= 8 feature=    2 act=0.000000 prob=0.000004
+  rank= 9 feature=    0 act=0.000000 prob=0.000004
+  rank=10 feature=    1 act=0.000000 prob=0.000004
+Layer 16
+  rank= 1 feature= 3280 act=0.620744 prob=0.000000
+  rank= 2 feature= 1542 act=0.481303 prob=0.000001
+  rank= 3 feature= 2866 act=0.281474 prob=0.000008
+  rank= 4 feature= 1597 act=0.083377 prob=0.000006
+  rank= 5 feature=  173 act=0.043561 prob=0.000003
+  rank= 6 feature= 1535 act=0.003472 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    1 act=0.000000 prob=0.000004
+  rank=10 feature=    0 act=0.000000 prob=0.000004
+Layer 17
+  rank= 1 feature= 1542 act=0.576140 prob=0.000001
+  rank= 2 feature= 3280 act=0.413696 prob=0.000000
+  rank= 3 feature=  173 act=0.169441 prob=0.000001
+  rank= 4 feature= 2866 act=0.133412 prob=0.000009
+  rank= 5 feature= 1535 act=0.087088 prob=0.000006
+  rank= 6 feature= 1601 act=0.068450 prob=0.000064
+  rank= 7 feature= 1597 act=0.057713 prob=0.000006
+  rank= 8 feature=    2 act=0.000000 prob=0.000004
+  rank= 9 feature=    1 act=0.000000 prob=0.000004
+  rank=10 feature=    0 act=0.000000 prob=0.000004
+Layer 18
+  rank= 1 feature= 1542 act=0.167203 prob=0.000001
+  rank= 2 feature= 3280 act=0.111507 prob=0.000000
+  rank= 3 feature= 1597 act=0.077096 prob=0.000006
+  rank= 4 feature=  173 act=0.027009 prob=0.000004
+  rank= 5 feature=    3 act=0.000000 prob=0.000004
+  rank= 6 feature=    2 act=0.000000 prob=0.000004
+  rank= 7 feature=    4 act=0.000000 prob=0.000004
+  rank= 8 feature=    5 act=0.000000 prob=0.000004
+  rank= 9 feature=    0 act=0.000000 prob=0.000004
+  rank=10 feature=    1 act=0.000000 prob=0.000004
+Layer 19
+  rank= 1 feature= 1535 act=0.481339 prob=0.000004
+  rank= 2 feature= 1542 act=0.455173 prob=0.000001
+  rank= 3 feature= 1597 act=0.256236 prob=0.000004
+  rank= 4 feature=  229 act=0.069167 prob=0.000022
+  rank= 5 feature= 2600 act=0.046125 prob=0.000002
+  rank= 6 feature= 1033 act=0.004460 prob=0.000004
+  rank= 7 feature=    2 act=0.000000 prob=0.000004
+  rank= 8 feature=    3 act=0.000000 prob=0.000004
+  rank= 9 feature=    1 act=0.000000 prob=0.000004
+  rank=10 feature=    0 act=0.000000 prob=0.000004
+Layer 20
+  rank= 1 feature= 1542 act=0.261828 prob=0.000001
+  rank= 2 feature= 2009 act=0.189888 prob=0.000001
+  rank= 3 feature= 3079 act=0.066084 prob=0.000008
+  rank= 4 feature= 3003 act=0.003839 prob=0.000003
+  rank= 5 feature=    3 act=0.000000 prob=0.000004
+  rank= 6 feature=    2 act=0.000000 prob=0.000004
+  rank= 7 feature=    4 act=0.000000 prob=0.000004
+  rank= 8 feature=    5 act=0.000000 prob=0.000004
+  rank= 9 feature=    0 act=0.000000 prob=0.000004
+  rank=10 feature=    1 act=0.000000 prob=0.000004
+Layer 21
+  rank= 1 feature= 2009 act=0.493068 prob=0.000001
+  rank= 2 feature= 1542 act=0.365043 prob=0.000001
+  rank= 3 feature= 3079 act=0.184539 prob=0.000007
+  rank= 4 feature= 3364 act=0.117559 prob=0.000033
+  rank= 5 feature=    3 act=0.000000 prob=0.000004
+  rank= 6 feature=    2 act=0.000000 prob=0.000004
+  rank= 7 feature=    4 act=0.000000 prob=0.000004
+  rank= 8 feature=    5 act=0.000000 prob=0.000004
+  rank= 9 feature=    0 act=0.000000 prob=0.000004
+  rank=10 feature=    1 act=0.000000 prob=0.000004
+Layer 22
+  rank= 1 feature= 2009 act=0.525627 prob=0.000001
+  rank= 2 feature= 3364 act=0.351573 prob=0.000035
+  rank= 3 feature= 1006 act=0.311816 prob=0.000000
+  rank= 4 feature= 1542 act=0.294351 prob=0.000001
+  rank= 5 feature= 3079 act=0.081478 prob=0.000008
+  rank= 6 feature=    3 act=0.000000 prob=0.000004
+  rank= 7 feature=    4 act=0.000000 prob=0.000004
+  rank= 8 feature=    2 act=0.000000 prob=0.000004
+  rank= 9 feature=    0 act=0.000000 prob=0.000004
+  rank=10 feature=    1 act=0.000000 prob=0.000004
+Layer 23
+  rank= 1 feature= 3079 act=0.625699 prob=0.000006
+  rank= 2 feature= 2009 act=0.540514 prob=0.000001
+  rank= 3 feature= 3364 act=0.529263 prob=0.000035
+  rank= 4 feature= 1542 act=0.394055 prob=0.000001
+  rank= 5 feature= 1033 act=0.388424 prob=0.000001
+  rank= 6 feature= 1006 act=0.297435 prob=0.000000
+  rank= 7 feature=  868 act=0.123247 prob=0.000062
+  rank= 8 feature= 2879 act=0.013757 prob=0.000005
+  rank= 9 feature=    0 act=0.000000 prob=0.000004
+  rank=10 feature=    1 act=0.000000 prob=0.000004
+Layer 24
+  rank= 1 feature= 3364 act=0.313166 prob=0.000035
+  rank= 2 feature=  868 act=0.232483 prob=0.000068
+  rank= 3 feature= 1542 act=0.198646 prob=0.000001
+  rank= 4 feature= 1033 act=0.143667 prob=0.000001
+  rank= 5 feature= 3079 act=0.059999 prob=0.000008
+  rank= 6 feature= 2009 act=0.040504 prob=0.000003
+  rank= 7 feature= 2866 act=0.020911 prob=0.000007
+  rank= 8 feature= 2879 act=0.005820 prob=0.000005
+  rank= 9 feature=    0 act=0.000000 prob=0.000004
+  rank=10 feature=    1 act=0.000000 prob=0.000004
+Layer 25
+  rank= 1 feature= 1542 act=0.454222 prob=0.000001
+  rank= 2 feature= 2666 act=0.313187 prob=0.000000
+  rank= 3 feature= 2009 act=0.190084 prob=0.000001
+  rank= 4 feature= 2879 act=0.144372 prob=0.000004
+  rank= 5 feature= 3364 act=0.116847 prob=0.000033
+  rank= 6 feature= 3711 act=0.041898 prob=0.000001
+  rank= 7 feature=  173 act=0.017887 prob=0.000004
+  rank= 8 feature=    2 act=0.000000 prob=0.000004
+  rank= 9 feature=    1 act=0.000000 prob=0.000004
+  rank=10 feature=    0 act=0.000000 prob=0.000004
+Layer 26
+  rank= 1 feature= 1542 act=0.771896 prob=0.000001
+  rank= 2 feature=  173 act=0.521901 prob=0.000001
+  rank= 3 feature= 1033 act=0.373867 prob=0.000001
+  rank= 4 feature=  868 act=0.259539 prob=0.000070
+  rank= 5 feature= 2666 act=0.230353 prob=0.000000
+  rank= 6 feature= 2555 act=0.185594 prob=0.000000
+  rank= 7 feature= 1871 act=0.138793 prob=0.000001
+  rank= 8 feature= 3079 act=0.129024 prob=0.000007
+  rank= 9 feature= 3383 act=0.115012 prob=0.000003
+  rank=10 feature= 3364 act=0.097224 prob=0.000031
+Layer 27
+  rank= 1 feature= 1033 act=1.063711 prob=0.000001
+  rank= 2 feature= 3364 act=0.646428 prob=0.000035
+  rank= 3 feature= 3079 act=0.566036 prob=0.000006
+  rank= 4 feature= 3881 act=0.548001 prob=0.000004
+  rank= 5 feature=  868 act=0.547921 prob=0.000071
+  rank= 6 feature= 1542 act=0.511355 prob=0.000001
+  rank= 7 feature=  173 act=0.489084 prob=0.000001
+  rank= 8 feature= 1871 act=0.406197 prob=0.000001
+  rank= 9 feature= 2666 act=0.405478 prob=0.000000
+  rank=10 feature= 1597 act=0.361503 prob=0.000004
+Layer 28
+  rank= 1 feature= 1033 act=0.819697 prob=0.000001
+  rank= 2 feature=  173 act=0.672205 prob=0.000001
+  rank= 3 feature= 2354 act=0.581040 prob=0.000003
+  rank= 4 feature= 3881 act=0.577342 prob=0.000004
+  rank= 5 feature= 1871 act=0.493002 prob=0.000001
+  rank= 6 feature=  868 act=0.467695 prob=0.000070
+  rank= 7 feature= 1542 act=0.460203 prob=0.000001
+  rank= 8 feature= 3079 act=0.409986 prob=0.000006
+  rank= 9 feature= 1006 act=0.406877 prob=0.000000
+  rank=10 feature= 3364 act=0.402492 prob=0.000035
+Layer 29
+  rank= 1 feature= 2354 act=0.672997 prob=0.000003
+  rank= 2 feature= 1033 act=0.608857 prob=0.000001
+  rank= 3 feature= 3079 act=0.524946 prob=0.000006
+  rank= 4 feature=  173 act=0.387655 prob=0.000001
+  rank= 5 feature=  956 act=0.386718 prob=0.000000
+  rank= 6 feature= 2666 act=0.381390 prob=0.000000
+  rank= 7 feature= 3145 act=0.355092 prob=0.000005
+  rank= 8 feature= 2642 act=0.335817 prob=0.000013
+  rank= 9 feature= 3829 act=0.275688 prob=0.000000
+  rank=10 feature= 1597 act=0.243568 prob=0.000004
+Layer 30
+  rank= 1 feature= 1597 act=0.653355 prob=0.000004
+  rank= 2 feature= 3145 act=0.630850 prob=0.000005
+  rank= 3 feature= 1542 act=0.527181 prob=0.000001
+  rank= 4 feature= 3079 act=0.514611 prob=0.000006
+  rank= 5 feature= 1033 act=0.500932 prob=0.000001
+  rank= 6 feature= 2666 act=0.499383 prob=0.000000
+  rank= 7 feature= 3881 act=0.495947 prob=0.000004
+  rank= 8 feature= 2642 act=0.471826 prob=0.000013
+  rank= 9 feature=  800 act=0.388539 prob=0.000005
+  rank=10 feature= 2970 act=0.308927 prob=0.000004
+Layer 31
+  rank= 1 feature= 1597 act=1.401534 prob=0.000004
+  rank= 2 feature= 1542 act=0.877002 prob=0.000001
+  rank= 3 feature= 2666 act=0.809900 prob=0.000000
+  rank= 4 feature= 3079 act=0.766946 prob=0.000006
+  rank= 5 feature= 3881 act=0.746410 prob=0.000004
+  rank= 6 feature= 3145 act=0.582164 prob=0.000005
+  rank= 7 feature=  173 act=0.464510 prob=0.000001
+  rank= 8 feature= 2156 act=0.351280 prob=0.000001
+  rank= 9 feature= 1033 act=0.348390 prob=0.000001
+  rank=10 feature= 2642 act=0.343318 prob=0.000013
+Layer 32
+  rank= 1 feature= 1542 act=1.478878 prob=0.000000
+  rank= 2 feature= 2666 act=1.036954 prob=0.000000
+  rank= 3 feature= 1597 act=1.003214 prob=0.000004
+  rank= 4 feature= 3079 act=0.865258 prob=0.000006
+  rank= 5 feature= 3881 act=0.703859 prob=0.000004
+  rank= 6 feature= 2642 act=0.634701 prob=0.000012
+  rank= 7 feature=  173 act=0.624748 prob=0.000001
+  rank= 8 feature= 3364 act=0.553314 prob=0.000035
+  rank= 9 feature= 2354 act=0.431907 prob=0.000003
+  rank=10 feature= 2970 act=0.414951 prob=0.000004
+Layer 33
+  rank= 1 feature= 1542 act=1.141819 prob=0.000000
+  rank= 2 feature= 3079 act=0.704897 prob=0.000006
+  rank= 3 feature= 1597 act=0.653147 prob=0.000004
+  rank= 4 feature= 3364 act=0.608227 prob=0.000035
+  rank= 5 feature= 2666 act=0.527037 prob=0.000000
+  rank= 6 feature= 3881 act=0.381746 prob=0.000004
+  rank= 7 feature=  173 act=0.354249 prob=0.000001
+  rank= 8 feature= 2600 act=0.338800 prob=0.000000
+  rank= 9 feature= 2555 act=0.294691 prob=0.000000
+  rank=10 feature= 2354 act=0.209609 prob=0.000004
+Layer 34
+  rank= 1 feature= 1542 act=0.957899 prob=0.000000
+  rank= 2 feature= 3079 act=0.594350 prob=0.000006
+  rank= 3 feature= 1597 act=0.517221 prob=0.000004
+  rank= 4 feature= 3364 act=0.350424 prob=0.000035
+  rank= 5 feature= 2600 act=0.300310 prob=0.000000
+  rank= 6 feature= 2354 act=0.095796 prob=0.000005
+  rank= 7 feature= 2666 act=0.076171 prob=0.000000
+  rank= 8 feature= 2642 act=0.041504 prob=0.000012
+  rank= 9 feature=    0 act=0.000000 prob=0.000004
+  rank=10 feature=    1 act=0.000000 prob=0.000004
+Layer 35
+  rank= 1 feature= 1542 act=0.944455 prob=0.000001
+  rank= 2 feature= 3364 act=0.808077 prob=0.000035
+  rank= 3 feature= 1597 act=0.665847 prob=0.000004
+  rank= 4 feature= 2600 act=0.564103 prob=0.000000
+  rank= 5 feature= 3079 act=0.422237 prob=0.000006
+  rank= 6 feature= 2666 act=0.238353 prob=0.000000
+  rank= 7 feature= 2642 act=0.224403 prob=0.000013
+  rank= 8 feature=  173 act=0.217874 prob=0.000001
+  rank= 9 feature= 3829 act=0.075882 prob=0.000001
+  rank=10 feature=  189 act=0.023763 prob=0.000002
+Layer 36
+  rank= 1 feature= 1542 act=0.612182 prob=0.000001
+  rank= 2 feature= 3364 act=0.567400 prob=0.000035
+  rank= 3 feature= 3079 act=0.256067 prob=0.000007
+  rank= 4 feature=  592 act=0.220696 prob=0.000000
+  rank= 5 feature= 2666 act=0.204243 prob=0.000000
+  rank= 6 feature= 2642 act=0.199684 prob=0.000013
+  rank= 7 feature= 2600 act=0.194650 prob=0.000001
+  rank= 8 feature= 3881 act=0.183504 prob=0.000004
+  rank= 9 feature= 1033 act=0.076334 prob=0.000002
+  rank=10 feature= 1597 act=0.009185 prob=0.000005
+Layer 37
+  rank= 1 feature= 3364 act=0.853070 prob=0.000035
+  rank= 2 feature= 2666 act=0.571428 prob=0.000000
+  rank= 3 feature= 1542 act=0.335180 prob=0.000001
+  rank= 4 feature= 3829 act=0.146549 prob=0.000000
+  rank= 5 feature= 3079 act=0.141197 prob=0.000007
+  rank= 6 feature=  592 act=0.126532 prob=0.000000
+  rank= 7 feature= 2824 act=0.115425 prob=0.000005
+  rank= 8 feature= 2642 act=0.090041 prob=0.000014
+  rank= 9 feature=  173 act=0.033768 prob=0.000004
+  rank=10 feature=    0 act=0.000000 prob=0.000004
+Layer 38
+  rank= 1 feature= 3364 act=1.003877 prob=0.000035
+  rank= 2 feature= 1542 act=0.698677 prob=0.000001
+  rank= 3 feature= 2666 act=0.575404 prob=0.000000
+  rank= 4 feature= 3079 act=0.520970 prob=0.000006
+  rank= 5 feature= 2642 act=0.498677 prob=0.000012
+  rank= 6 feature= 1033 act=0.432393 prob=0.000001
+  rank= 7 feature= 2824 act=0.420346 prob=0.000004
+  rank= 8 feature= 1597 act=0.369921 prob=0.000004
+  rank= 9 feature=  173 act=0.186301 prob=0.000001
+  rank=10 feature= 3829 act=0.126863 prob=0.000001
+Layer 39
+  rank= 1 feature= 1597 act=1.284929 prob=0.000004
+  rank= 2 feature= 2642 act=1.093074 prob=0.000012
+  rank= 3 feature= 1542 act=0.900789 prob=0.000001
+  rank= 4 feature= 2824 act=0.777915 prob=0.000004
+  rank= 5 feature= 3364 act=0.776371 prob=0.000035
+  rank= 6 feature= 2666 act=0.401083 prob=0.000000
+  rank= 7 feature=  189 act=0.341217 prob=0.000000
+  rank= 8 feature= 1188 act=0.340405 prob=0.000000
+  rank= 9 feature=  173 act=0.283960 prob=0.000001
+  rank=10 feature= 1033 act=0.237928 prob=0.000001
+Layer 40
+  rank= 1 feature= 1597 act=1.168765 prob=0.000004
+  rank= 2 feature= 2642 act=0.899222 prob=0.000012
+  rank= 3 feature= 3364 act=0.801609 prob=0.000036
+  rank= 4 feature=   42 act=0.452002 prob=0.000021
+  rank= 5 feature= 1542 act=0.415040 prob=0.000001
+  rank= 6 feature= 2824 act=0.318355 prob=0.000004
+  rank= 7 feature= 1188 act=0.227202 prob=0.000000
+  rank= 8 feature= 2666 act=0.206004 prob=0.000000
+  rank= 9 feature= 3881 act=0.204904 prob=0.000004
+  rank=10 feature= 3079 act=0.089591 prob=0.000008
+Layer 41
+  rank= 1 feature= 1597 act=1.690918 prob=0.000004
+  rank= 2 feature= 2642 act=0.813912 prob=0.000012
+  rank= 3 feature=   42 act=0.636830 prob=0.000021
+  rank= 4 feature= 3364 act=0.474981 prob=0.000035
+  rank= 5 feature= 1542 act=0.367748 prob=0.000001
+  rank= 6 feature= 2666 act=0.346952 prob=0.000000
+  rank= 7 feature= 1188 act=0.232082 prob=0.000000
+  rank= 8 feature= 3881 act=0.230237 prob=0.000004
+  rank= 9 feature=  189 act=0.146345 prob=0.000000
+  rank=10 feature= 1601 act=0.131419 prob=0.000101
+Layer 42
+  rank= 1 feature= 1597 act=1.835587 prob=0.000004
+  rank= 2 feature= 1542 act=1.076103 prob=0.000000
+  rank= 3 feature= 2642 act=0.827329 prob=0.000012
+  rank= 4 feature=  189 act=0.779557 prob=0.000000
+  rank= 5 feature=   42 act=0.675838 prob=0.000021
+  rank= 6 feature= 2869 act=0.406476 prob=0.000059
+  rank= 7 feature= 2666 act=0.370186 prob=0.000000
+  rank= 8 feature= 3364 act=0.357675 prob=0.000035
+  rank= 9 feature=  769 act=0.205016 prob=0.000001
+  rank=10 feature=  592 act=0.203556 prob=0.000000
+Layer 43
+  rank= 1 feature= 1597 act=2.231193 prob=0.000004
+  rank= 2 feature=   42 act=1.208670 prob=0.000021
+  rank= 3 feature=  189 act=1.185014 prob=0.000000
+  rank= 4 feature= 2666 act=1.162771 prob=0.000000
+  rank= 5 feature= 1542 act=1.083490 prob=0.000000
+  rank= 6 feature= 2869 act=1.013147 prob=0.000059
+  rank= 7 feature= 3079 act=0.866702 prob=0.000006
+  rank= 8 feature= 2642 act=0.782450 prob=0.000012
+  rank= 9 feature= 3452 act=0.751155 prob=0.000000
+  rank=10 feature= 2723 act=0.652760 prob=0.000002
+Layer 44
+  rank= 1 feature= 1597 act=1.360164 prob=0.000004
+  rank= 2 feature= 2666 act=1.164629 prob=0.000000
+  rank= 3 feature=   42 act=1.152677 prob=0.000021
+  rank= 4 feature=  189 act=1.093129 prob=0.000000
+  rank= 5 feature=   51 act=1.030249 prob=0.000000
+  rank= 6 feature= 2642 act=1.025381 prob=0.000013
+  rank= 7 feature= 1542 act=1.016694 prob=0.000000
+  rank= 8 feature=  592 act=0.815741 prob=0.000000
+  rank= 9 feature= 3452 act=0.679714 prob=0.000000
+  rank=10 feature= 2555 act=0.660626 prob=0.000000
+Layer 45
+  rank= 1 feature= 1597 act=1.605394 prob=0.000004
+  rank= 2 feature=   51 act=1.524997 prob=0.000000
+  rank= 3 feature=   42 act=1.460236 prob=0.000021
+  rank= 4 feature= 1542 act=1.369065 prob=0.000000
+  rank= 5 feature= 2642 act=1.291227 prob=0.000012
+  rank= 6 feature=  173 act=1.279938 prob=0.000001
+  rank= 7 feature= 3452 act=1.222923 prob=0.000000
+  rank= 8 feature= 2666 act=1.069348 prob=0.000000
+  rank= 9 feature=  592 act=0.944992 prob=0.000000
+  rank=10 feature= 3696 act=0.931145 prob=0.000008
+Layer 46
+  rank= 1 feature= 1597 act=1.436045 prob=0.000004
+  rank= 2 feature=   51 act=1.429946 prob=0.000000
+  rank= 3 feature=   42 act=1.301659 prob=0.000021
+  rank= 4 feature= 2642 act=1.284101 prob=0.000012
+  rank= 5 feature= 1542 act=1.099835 prob=0.000001
+  rank= 6 feature= 2666 act=0.985220 prob=0.000000
+  rank= 7 feature= 3881 act=0.939888 prob=0.000004
+  rank= 8 feature= 2282 act=0.924222 prob=0.000008
+  rank= 9 feature= 3696 act=0.865935 prob=0.000008
+  rank=10 feature= 3452 act=0.768327 prob=0.000000
+Layer 47
+  rank= 1 feature=   42 act=1.906469 prob=0.000021
+  rank= 2 feature= 1597 act=1.880978 prob=0.000004
+  rank= 3 feature= 3452 act=1.789304 prob=0.000000
+  rank= 4 feature= 2642 act=1.627538 prob=0.000012
+  rank= 5 feature= 2600 act=1.569416 prob=0.000000
+  rank= 6 feature= 2666 act=1.523217 prob=0.000000
+  rank= 7 feature=   45 act=1.511052 prob=0.000000
+  rank= 8 feature= 3696 act=1.430235 prob=0.000008
+  rank= 9 feature=   51 act=1.359338 prob=0.000000
+  rank=10 feature= 3881 act=1.351990 prob=0.000004
+Layer 48
+  rank= 1 feature= 1597 act=2.362115 prob=0.000004
+  rank= 2 feature= 4038 act=2.349951 prob=0.000000
+  rank= 3 feature=   42 act=1.880093 prob=0.000021
+  rank= 4 feature= 2642 act=1.683937 prob=0.000012
+  rank= 5 feature= 1542 act=1.628315 prob=0.000000
+  rank= 6 feature= 2600 act=1.497973 prob=0.000000
+  rank= 7 feature= 2666 act=1.476800 prob=0.000000
+  rank= 8 feature= 2869 act=1.413649 prob=0.000060
+  rank= 9 feature=  189 act=1.334596 prob=0.000000
+  rank=10 feature=   51 act=1.318160 prob=0.000000
+Layer 49
+  rank= 1 feature= 1597 act=2.950264 prob=0.000004
+  rank= 2 feature= 4038 act=2.699939 prob=0.000000
+  rank= 3 feature= 2053 act=2.116211 prob=0.000001
+  rank= 4 feature= 2642 act=1.993320 prob=0.000012
+  rank= 5 feature= 1610 act=1.981063 prob=0.000000
+  rank= 6 feature= 2666 act=1.958512 prob=0.000000
+  rank= 7 feature= 3373 act=1.958002 prob=0.000000
+  rank= 8 feature= 1542 act=1.699609 prob=0.000000
+  rank= 9 feature= 2600 act=1.656771 prob=0.000000
+  rank=10 feature=   42 act=1.626731 prob=0.000021
+Layer 50
+  rank= 1 feature= 1597 act=3.150108 prob=0.000004
+  rank= 2 feature= 1542 act=2.457592 prob=0.000000
+  rank= 3 feature= 3452 act=2.236193 prob=0.000000
+  rank= 4 feature=   45 act=2.035386 prob=0.000000
+  rank= 5 feature= 2555 act=1.990678 prob=0.000000
+  rank= 6 feature= 1241 act=1.954294 prob=0.000000
+  rank= 7 feature= 4038 act=1.940959 prob=0.000000
+  rank= 8 feature= 1610 act=1.891123 prob=0.000000
+  rank= 9 feature= 3373 act=1.813327 prob=0.000000
+  rank=10 feature= 2666 act=1.684402 prob=0.000000
+Layer 51
+  rank= 1 feature=  715 act=3.362746 prob=0.000000
+  rank= 2 feature= 2009 act=3.215165 prob=0.000001
+  rank= 3 feature= 1542 act=2.811113 prob=0.000001
+  rank= 4 feature=  211 act=2.803086 prob=0.000000
+  rank= 5 feature=  234 act=2.563884 prob=0.000007
+  rank= 6 feature= 2626 act=2.353798 prob=0.000010
+  rank= 7 feature= 3452 act=2.280149 prob=0.000000
+  rank= 8 feature= 1597 act=2.236678 prob=0.000004
+  rank= 9 feature= 2824 act=2.110502 prob=0.000004
+  rank=10 feature=   51 act=2.028226 prob=0.000000
+Layer 52
+  rank= 1 feature= 2009 act=4.496340 prob=0.000001
+  rank= 2 feature= 2626 act=4.064569 prob=0.000010
+  rank= 3 feature=   51 act=3.729783 prob=0.000000
+  rank= 4 feature=  234 act=3.391291 prob=0.000007
+  rank= 5 feature= 1542 act=3.327506 prob=0.000000
+  rank= 6 feature= 2824 act=2.805522 prob=0.000004
+  rank= 7 feature= 2549 act=2.674846 prob=0.000523
+  rank= 8 feature= 1610 act=2.596354 prob=0.000000
+  rank= 9 feature=  405 act=2.563935 prob=0.000000
+  rank=10 feature= 3306 act=2.544286 prob=0.000000
+Layer 53
+  rank= 1 feature= 2009 act=4.878036 prob=0.000001
+  rank= 2 feature= 2626 act=4.420166 prob=0.000010
+  rank= 3 feature=  721 act=3.896765 prob=0.000000
+  rank= 4 feature= 2824 act=3.788587 prob=0.000004
+  rank= 5 feature= 3306 act=3.407395 prob=0.000000
+  rank= 6 feature= 2549 act=3.387651 prob=0.000523
+  rank= 7 feature=   51 act=3.354702 prob=0.000000
+  rank= 8 feature= 3881 act=3.317413 prob=0.000004
+  rank= 9 feature=  234 act=3.291828 prob=0.000007
+  rank=10 feature= 1004 act=3.255130 prob=0.000001
+Layer 54
+  rank= 1 feature= 2009 act=5.737201 prob=0.000001
+  rank= 2 feature= 1542 act=4.424978 prob=0.000000
+  rank= 3 feature= 2626 act=4.251463 prob=0.000010
+  rank= 4 feature=  720 act=3.846401 prob=0.000001
+  rank= 5 feature= 2824 act=3.800923 prob=0.000004
+  rank= 6 feature= 2549 act=3.794409 prob=0.000507
+  rank= 7 feature=  234 act=3.712973 prob=0.000007
+  rank= 8 feature=  721 act=3.704056 prob=0.000000
+  rank= 9 feature= 2555 act=3.594185 prob=0.000000
+  rank=10 feature= 2129 act=3.557239 prob=0.000001
+Layer 55
+  rank= 1 feature= 2009 act=5.811853 prob=0.000001
+  rank= 2 feature=  721 act=5.296492 prob=0.000000
+  rank= 3 feature=   51 act=4.983799 prob=0.000000
+  rank= 4 feature=  720 act=4.971192 prob=0.000001
+  rank= 5 feature=  234 act=4.926322 prob=0.000007
+  rank= 6 feature= 2549 act=4.864699 prob=0.000523
+  rank= 7 feature= 2824 act=4.651390 prob=0.000004
+  rank= 8 feature= 2626 act=4.364354 prob=0.000010
+  rank= 9 feature= 1542 act=4.313630 prob=0.000000
+  rank=10 feature=  211 act=4.310124 prob=0.000000
+Layer 56
+  rank= 1 feature=  211 act=6.705385 prob=0.000000
+  rank= 2 feature=  720 act=6.578192 prob=0.000001
+  rank= 3 feature= 2251 act=6.426946 prob=0.000000
+  rank= 4 feature=  721 act=6.406780 prob=0.000000
+  rank= 5 feature=  234 act=6.307675 prob=0.000007
+  rank= 6 feature= 2824 act=6.120824 prob=0.000004
+  rank= 7 feature= 2009 act=5.971633 prob=0.000001
+  rank= 8 feature= 1546 act=5.689840 prob=0.000030
+  rank= 9 feature=   51 act=5.634124 prob=0.000000
+  rank=10 feature= 3986 act=5.598291 prob=0.000002
+Layer 57
+  rank= 1 feature= 2824 act=7.361774 prob=0.000004
+  rank= 2 feature=  720 act=7.194427 prob=0.000001
+  rank= 3 feature= 1547 act=6.819177 prob=0.000000
+  rank= 4 feature=  234 act=6.796225 prob=0.000007
+  rank= 5 feature=  721 act=6.601935 prob=0.000000
+  rank= 6 feature=  211 act=6.278096 prob=0.000000
+  rank= 7 feature= 3312 act=6.098428 prob=0.000004
+  rank= 8 feature= 2828 act=5.855968 prob=0.000045
+  rank= 9 feature= 1834 act=5.819722 prob=0.000007
+  rank=10 feature= 3339 act=5.783168 prob=0.000005
+Layer 58
+  rank= 1 feature=  721 act=6.580452 prob=0.000000
+  rank= 2 feature= 2828 act=6.574200 prob=0.000045
+  rank= 3 feature= 2824 act=6.548044 prob=0.000004
+  rank= 4 feature= 1547 act=6.053810 prob=0.000000
+  rank= 5 feature=  234 act=5.960690 prob=0.000007
+  rank= 6 feature= 1546 act=5.880516 prob=0.000029
+  rank= 7 feature= 4038 act=5.843377 prob=0.000000
+  rank= 8 feature= 2038 act=5.753351 prob=0.000001
+  rank= 9 feature= 3312 act=5.746628 prob=0.000004
+  rank=10 feature= 3986 act=5.732914 prob=0.000002
+Layer 59
+  rank= 1 feature= 2824 act=9.371408 prob=0.000004
+  rank= 2 feature= 2828 act=8.181741 prob=0.000045
+  rank= 3 feature= 1547 act=7.326779 prob=0.000000
+  rank= 4 feature=  769 act=6.920569 prob=0.000001
+  rank= 5 feature= 2038 act=6.745120 prob=0.000001
+  rank= 6 feature=  211 act=6.680978 prob=0.000000
+  rank= 7 feature=   51 act=6.474971 prob=0.000000
+  rank= 8 feature= 1834 act=6.431356 prob=0.000007
+  rank= 9 feature= 2999 act=6.393939 prob=0.000282
+  rank=10 feature= 3986 act=6.314205 prob=0.000002
+Layer 60
+  rank= 1 feature= 2824 act=10.192761 prob=0.000004
+  rank= 2 feature= 2828 act=8.764655 prob=0.000044
+  rank= 3 feature= 1547 act=7.572661 prob=0.000000
+  rank= 4 feature=  720 act=6.793111 prob=0.000001
+  rank= 5 feature= 1834 act=6.748296 prob=0.000007
+  rank= 6 feature=  721 act=6.678887 prob=0.000000
+  rank= 7 feature= 2009 act=6.243777 prob=0.000001
+  rank= 8 feature= 2038 act=5.977647 prob=0.000001
+  rank= 9 feature=  211 act=5.925101 prob=0.000000
+  rank=10 feature=  715 act=5.785023 prob=0.000000
+Layer 61
+  rank= 1 feature= 2824 act=10.037875 prob=0.000004
+  rank= 2 feature= 2828 act=9.382718 prob=0.000045
+  rank= 3 feature= 2009 act=9.202347 prob=0.000001
+  rank= 4 feature= 1547 act=9.044532 prob=0.000000
+  rank= 5 feature=  211 act=9.012039 prob=0.000000
+  rank= 6 feature= 2313 act=7.728181 prob=0.000010
+  rank= 7 feature=  721 act=7.386596 prob=0.000000
+  rank= 8 feature= 3986 act=7.185267 prob=0.000002
+  rank= 9 feature=  234 act=7.138284 prob=0.000007
+  rank=10 feature=   51 act=6.879870 prob=0.000000
+Layer 62
+  rank= 1 feature= 2009 act=11.347884 prob=0.000001
+  rank= 2 feature=  211 act=10.843618 prob=0.000000
+  rank= 3 feature= 2824 act=10.445227 prob=0.000004
+  rank= 4 feature= 2313 act=10.234052 prob=0.000010
+  rank= 5 feature= 2881 act=9.390220 prob=0.000001
+  rank= 6 feature= 3986 act=9.206052 prob=0.000002
+  rank= 7 feature= 2828 act=8.984905 prob=0.000045
+  rank= 8 feature= 4038 act=8.532463 prob=0.000000
+  rank= 9 feature=  234 act=8.170382 prob=0.000007
+  rank=10 feature=  703 act=8.122287 prob=0.000000
+Layer 63
+  rank= 1 feature=  211 act=13.867682 prob=0.000000
+  rank= 2 feature= 2009 act=13.301317 prob=0.000001
+  rank= 3 feature= 2294 act=13.015438 prob=0.000000
+  rank= 4 feature= 1546 act=12.135693 prob=0.000029
+  rank= 5 feature=  426 act=11.262141 prob=0.000000
+  rank= 6 feature= 2824 act=11.178796 prob=0.000004
+  rank= 7 feature=  690 act=11.101031 prob=0.000000
+  rank= 8 feature= 2313 act=10.981164 prob=0.000010
+  rank= 9 feature= 2828 act=10.684051 prob=0.000045
+  rank=10 feature= 3986 act=10.454009 prob=0.000002
+Layer 64
+  rank= 1 feature= 3924 act=2.496826 prob=0.000002
+  rank= 2 feature= 2986 act=1.964855 prob=0.000006
+  rank= 3 feature= 2280 act=1.910475 prob=0.000025
+  rank= 4 feature= 2118 act=1.731854 prob=0.000001
+  rank= 5 feature= 3069 act=1.550580 prob=0.000000
+  rank= 6 feature= 1213 act=1.426857 prob=0.000001
+  rank= 7 feature= 1479 act=1.393047 prob=0.000002
+  rank= 8 feature= 1904 act=1.317216 prob=0.000027
+  rank= 9 feature= 2315 act=1.309853 prob=0.000000
+  rank=10 feature= 4081 act=1.277727 prob=0.000000

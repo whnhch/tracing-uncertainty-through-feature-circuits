@@ -1,0 +1,15 @@
+Model: Qwen/Qwen3.5-27B
+Prompt: Fact: the capital of the state containing Dallas is
+Target token: '2' (resolved='2', id=17)
+
+Top features tracked across layers:
+Feature  2592 | peak_act=15.974455 | best_layer=1 | best_prob=0.000004
+Feature  1736 | peak_act=15.032230 | best_layer=38 | best_prob=0.000004
+Feature  2061 | peak_act=14.789465 | best_layer=1 | best_prob=0.000004
+Feature  2723 | peak_act=14.765509 | best_layer=1 | best_prob=0.000004
+Feature  2009 | peak_act=14.334096 | best_layer=1 | best_prob=0.000004
+Feature  1104 | peak_act=13.888573 | best_layer=1 | best_prob=0.000004
+Feature  3829 | peak_act=13.647349 | best_layer=1 | best_prob=0.000004
+Feature  3194 | peak_act=13.570075 | best_layer=1 | best_prob=0.000004
+Feature   229 | peak_act=13.515274 | best_layer=58 | best_prob=0.000026
+Feature  2114 | peak_act=13.464152 | best_layer=1 | best_prob=0.000004

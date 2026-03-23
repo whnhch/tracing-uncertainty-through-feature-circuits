@@ -1,0 +1,69 @@
+Model: Qwen/Qwen3.5-27B
+Prompt: 1+1=
+Final-layer next token: 2 (id=17)
+
+Per-layer argmax next token:
+Layer  1: token=' ' id=220 prob=0.015747
+Layer  2: token=' ' id=220 prob=0.016846
+Layer  3: token=' ' id=220 prob=0.013184
+Layer  4: token=' ' id=220 prob=0.021484
+Layer  5: token=' ' id=220 prob=0.019043
+Layer  6: token=' ' id=220 prob=0.022095
+Layer  7: token=' ' id=220 prob=0.032227
+Layer  8: token=' ' id=220 prob=0.021851
+Layer  9: token=' ' id=220 prob=0.025513
+Layer 10: token=' ' id=220 prob=0.014648
+Layer 11: token=' ' id=220 prob=0.014099
+Layer 12: token=' ' id=220 prob=0.015991
+Layer 13: token=' ' id=220 prob=0.010193
+Layer 14: token='...' id=1076 prob=0.007721
+Layer 15: token='...' id=1076 prob=0.007141
+Layer 16: token='...' id=1076 prob=0.013062
+Layer 17: token='...' id=1076 prob=0.018188
+Layer 18: token='...' id=1076 prob=0.018677
+Layer 19: token=' ' id=220 prob=0.019287
+Layer 20: token=' ' id=220 prob=0.011841
+Layer 21: token='!' id=0 prob=0.007874
+Layer 22: token='!' id=0 prob=0.004883
+Layer 23: token='!' id=0 prob=0.005585
+Layer 24: token='...' id=1076 prob=0.008240
+Layer 25: token=' ' id=220 prob=0.010254
+Layer 26: token=' ' id=220 prob=0.006195
+Layer 27: token='...' id=1076 prob=0.008545
+Layer 28: token=' ' id=220 prob=0.007477
+Layer 29: token='...' id=1076 prob=0.019165
+Layer 30: token='...' id=1076 prob=0.012573
+Layer 31: token='...' id=1076 prob=0.005127
+Layer 32: token='...' id=1076 prob=0.012817
+Layer 33: token='...' id=1076 prob=0.004822
+Layer 34: token='...' id=1076 prob=0.013611
+Layer 35: token=' ' id=220 prob=0.025757
+Layer 36: token=' ' id=220 prob=0.007477
+Layer 37: token=' ' id=220 prob=0.008484
+Layer 38: token=' ' id=220 prob=0.010376
+Layer 39: token=' ' id=220 prob=0.028687
+Layer 40: token=' ' id=220 prob=0.012756
+Layer 41: token=' ' id=220 prob=0.013000
+Layer 42: token=' ' id=220 prob=0.011108
+Layer 43: token='...' id=1076 prob=0.010620
+Layer 44: token='...' id=1076 prob=0.017090
+Layer 45: token=' ' id=220 prob=0.008972
+Layer 46: token='...' id=1076 prob=0.005554
+Layer 47: token=' ' id=220 prob=0.002121
+Layer 48: token='...' id=1076 prob=0.002502
+Layer 49: token='/=' id=64155 prob=0.003189
+Layer 50: token='？' id=10992 prob=0.004547
+Layer 51: token='？' id=10992 prob=0.030396
+Layer 52: token='/=' id=64155 prob=0.036865
+Layer 53: token='/=' id=64155 prob=0.026978
+Layer 54: token='/=' id=64155 prob=0.052246
+Layer 55: token='？' id=10992 prob=0.071289
+Layer 56: token='？' id=10992 prob=0.554688
+Layer 57: token='？' id=10992 prob=0.796875
+Layer 58: token='？' id=10992 prob=0.820312
+Layer 59: token='？' id=10992 prob=0.816406
+Layer 60: token='？' id=10992 prob=0.921875
+Layer 61: token='？' id=10992 prob=0.878906
+Layer 62: token='？' id=10992 prob=0.894531
+Layer 63: token='2' id=17 prob=0.839844
+Layer 64: token='2' id=17 prob=0.550781

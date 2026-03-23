@@ -1,0 +1,15 @@
+Model: Qwen/Qwen3.5-0.8B
+Prompt: 1+1=
+Selected layer: 24
+
+Top features and their top predicted token:
+Feature  1676 | act=9.481755 | token='�' id=123 | prob=0.153320
+Feature   163 | act=9.260437 | token='未知的' id=138527 | prob=0.046631
+Feature  3506 | act=9.075321 | token='arang' id=155119 | prob=0.106445
+Feature  2248 | act=8.661712 | token='.' id=13 | prob=0.014282
+Feature   249 | act=8.400159 | token='less' id=1657 | prob=0.061768
+Feature  3078 | act=8.149804 | token='睡前' id=115308 | prob=0.016357
+Feature  2498 | act=7.926005 | token='两个维护' id=131547 | prob=0.031250
+Feature   608 | act=7.698630 | token='缨' id=108435 | prob=0.015503
+Feature  2030 | act=7.381938 | token='户' id=96244 | prob=0.024780
+Feature  3089 | act=7.183283 | token='el' id=300 | prob=0.110840

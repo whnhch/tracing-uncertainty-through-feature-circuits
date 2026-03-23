@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-TRANSFORMER_PATH="/scratch/general/nfs1/u1472329/cache/" # change this to your scratch path
+TRANSFORMER_PATH="/scratch/general/nfs1/u1472329/cache/" # change this to your scratch path or not then it will let you use the default huggingface cache path (local) which only has 
 export TRANSFORMERS_CACHE="$TRANSFORMER_PATH"
 export HF_HOME="$TRANSFORMER_PATH"
 export HF_DATASETS_CACHE="$TRANSFORMER_PATH"

@@ -1,0 +1,15 @@
+Model: Qwen/Qwen3.5-0.8B
+Prompt: 1+1=
+Target token: '2' (resolved='2', id=17)
+
+Top features tracked across layers:
+Feature  1676 | peak_act=9.481755 | best_layer=1 | best_prob=0.000004
+Feature   163 | peak_act=9.260437 | best_layer=1 | best_prob=0.000004
+Feature  3506 | peak_act=9.075321 | best_layer=1 | best_prob=0.000004
+Feature  2248 | peak_act=8.661712 | best_layer=24 | best_prob=0.000113
+Feature   249 | peak_act=8.400159 | best_layer=24 | best_prob=0.033203
+Feature  3078 | peak_act=8.149804 | best_layer=24 | best_prob=0.000005
+Feature  2498 | peak_act=7.926005 | best_layer=1 | best_prob=0.000004
+Feature   608 | peak_act=7.698630 | best_layer=1 | best_prob=0.000004
+Feature  2030 | peak_act=7.381938 | best_layer=24 | best_prob=0.000013
+Feature  3089 | peak_act=7.183283 | best_layer=24 | best_prob=0.000118

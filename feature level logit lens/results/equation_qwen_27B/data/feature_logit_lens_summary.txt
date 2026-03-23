@@ -1,0 +1,15 @@
+Model: Qwen/Qwen3.5-27B
+Prompt: 1+1=
+Selected layer: 64
+
+Top features and their top predicted token:
+Feature  3924 | act=2.496826 | token='最是' id=148245 | prob=0.005188
+Feature  2986 | act=1.964855 | token='pon' id=603 | prob=0.022095
+Feature  2280 | act=1.910475 | token='山水画' id=136772 | prob=0.004974
+Feature  2118 | act=1.731854 | token='脱' id=97224 | prob=0.004089
+Feature  3069 | act=1.550580 | token='ajo' id=18171 | prob=0.006714
+Feature  1213 | act=1.426857 | token=' Squ' id=19471 | prob=0.004578
+Feature  1479 | act=1.393047 | token='illo' id=21111 | prob=0.006531
+Feature  1904 | act=1.317216 | token='育才' id=132518 | prob=0.007141
+Feature  2315 | act=1.309853 | token='您的问题' id=140873 | prob=0.022095
+Feature  4081 | act=1.277727 | token='เซอร์' id=156325 | prob=0.005951
