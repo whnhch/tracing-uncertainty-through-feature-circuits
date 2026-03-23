@@ -1,0 +1,41 @@
+{"id":"arith_001","category":"arithmetic","ambiguity":"low","prompt":"1 + 1 =","target":" 2","notes":"Very low ambiguity arithmetic completion."}
+{"id":"arith_002","category":"arithmetic","ambiguity":"low","prompt":"2 + 3 =","target":" 5","notes":"Simple addition."}
+{"id":"arith_003","category":"arithmetic","ambiguity":"low","prompt":"10 - 4 =","target":" 6","notes":"Simple subtraction."}
+{"id":"arith_004","category":"arithmetic","ambiguity":"low","prompt":"3 * 3 =","target":" 9","notes":"Simple multiplication."}
+{"id":"arith_005","category":"arithmetic","ambiguity":"low","prompt":"8 / 2 =","target":" 4","notes":"Simple division."}
+
+{"id":"fact_001","category":"factual","ambiguity":"low","prompt":"The capital of France is","target":" Paris","notes":"Canonical world knowledge."}
+{"id":"fact_002","category":"factual","ambiguity":"low","prompt":"The capital of Japan is","target":" Tokyo","notes":"Canonical world knowledge."}
+{"id":"fact_003","category":"factual","ambiguity":"low","prompt":"The largest planet in the solar system is","target":" Jupiter","notes":"Canonical science fact."}
+{"id":"fact_004","category":"factual","ambiguity":"low","prompt":"Water freezes at 0 degrees","target":" Celsius","notes":"Canonical science fact."}
+{"id":"fact_005","category":"factual","ambiguity":"low","prompt":"The chemical symbol for gold is","target":" Au","notes":"Short factual completion."}
+
+{"id":"syntax_001","category":"syntax","ambiguity":"medium","prompt":"The cat sat on the","target":" mat","notes":"Reasonable but not unique next token."}
+{"id":"syntax_002","category":"syntax","ambiguity":"medium","prompt":"She opened the door and","target":" walked","notes":"Multiple plausible continuations."}
+{"id":"syntax_003","category":"syntax","ambiguity":"medium","prompt":"He went to the store to buy","target":" milk","notes":"Common but not unique continuation."}
+{"id":"syntax_004","category":"syntax","ambiguity":"medium","prompt":"I looked out the window and saw","target":" a","notes":"Very open-ended but grammatically constrained."}
+{"id":"syntax_005","category":"syntax","ambiguity":"medium","prompt":"After dinner, they decided to","target":" go","notes":"Many valid continuations."}
+
+{"id":"commonsense_001","category":"commonsense","ambiguity":"medium","prompt":"If you drop a glass on a hard floor, it may","target":" break","notes":"Strong commonsense tendency, but alternatives exist."}
+{"id":"commonsense_002","category":"commonsense","ambiguity":"medium","prompt":"You wear shoes on your","target":" feet","notes":"Common completion."}
+{"id":"commonsense_003","category":"commonsense","ambiguity":"medium","prompt":"People usually sleep at","target":" night","notes":"Strong but not exclusive."}
+{"id":"commonsense_004","category":"commonsense","ambiguity":"medium","prompt":"To cut paper, you can use","target":" scissors","notes":"Good commonsense test."}
+{"id":"commonsense_005","category":"commonsense","ambiguity":"medium","prompt":"When it rains, the ground gets","target":" wet","notes":"Simple causal completion."}
+
+{"id":"knowledge_amb_001","category":"knowledge","ambiguity":"high","prompt":"The answer to the meaning of life is","target":" 42","notes":"Culturally loaded; many models may branch into explanation."}
+{"id":"knowledge_amb_002","category":"knowledge","ambiguity":"high","prompt":"The best programming language is","target":" Python","notes":"Intentionally subjective; target is arbitrary for testing."}
+{"id":"knowledge_amb_003","category":"knowledge","ambiguity":"high","prompt":"The most important invention in history is","target":" the","notes":"Highly open-ended next-token uncertainty."}
+{"id":"knowledge_amb_004","category":"knowledge","ambiguity":"high","prompt":"The future of AI is","target":" uncertain","notes":"Open-ended semantic continuation."}
+{"id":"knowledge_amb_005","category":"knowledge","ambiguity":"high","prompt":"The secret to happiness is","target":" balance","notes":"Subjective completion."}
+
+{"id":"token_comp_001","category":"tokenization","ambiguity":"medium","prompt":"The capital of the state containing Dallas is","target":" Austin","notes":"Useful for your motivating example."}
+{"id":"token_comp_002","category":"tokenization","ambiguity":"medium","prompt":"A prime number after 10 is","target":" 11","notes":"Useful for checking targeted token attribution."}
+{"id":"token_comp_003","category":"tokenization","ambiguity":"medium","prompt":"The opposite of hot is","target":" cold","notes":"Simple antonym completion."}
+{"id":"token_comp_004","category":"tokenization","ambiguity":"medium","prompt":"The color of a clear daytime sky is","target":" blue","notes":"Simple grounded completion."}
+{"id":"token_comp_005","category":"tokenization","ambiguity":"medium","prompt":"A baby dog is called a","target":" puppy","notes":"Simple lexical retrieval."}
+
+{"id":"seqpos_001","category":"sequence_position","ambiguity":"low","prompt":"1, 2, 3, 4,","target":" 5","notes":"Next-item continuation with strong local pattern."}
+{"id":"seqpos_002","category":"sequence_position","ambiguity":"low","prompt":"Monday, Tuesday, Wednesday,","target":" Thursday","notes":"Sequential knowledge."}
+{"id":"seqpos_003","category":"sequence_position","ambiguity":"low","prompt":"A, B, C, D,","target":" E","notes":"Alphabet continuation."}
+{"id":"seqpos_004","category":"sequence_position","ambiguity":"low","prompt":"January, February, March,","target":" April","notes":"Month continuation."}
+{"id":"seqpos_005","category":"sequence_position","ambiguity":"low","prompt":"2, 4, 6, 8,","target":" 10","notes":"Even-number continuation."}
