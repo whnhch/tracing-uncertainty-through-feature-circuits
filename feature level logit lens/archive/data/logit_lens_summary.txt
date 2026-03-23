@@ -1,0 +1,29 @@
+Model: Qwen/Qwen3.5-0.8B
+Prompt: 1+1=
+Final-layer next token: 2 (id=17)
+
+Per-layer argmax next token:
+Layer  1: token='andalkan' id=167459 prob=0.022583
+Layer  2: token='化和' id=110851 prob=0.037842
+Layer  3: token='ogli' id=152531 prob=0.018921
+Layer  4: token=' 같습니다' id=180787 prob=0.019165
+Layer  5: token=' 같습니다' id=180787 prob=0.019409
+Layer  6: token=' 같습니다' id=180787 prob=0.018677
+Layer  7: token='irim' id=59299 prob=0.027466
+Layer  8: token='ements' id=3597 prob=0.063965
+Layer  9: token='ză' id=202732 prob=0.017700
+Layer 10: token='ză' id=202732 prob=0.043701
+Layer 11: token=' ?",' id=40907 prob=0.050293
+Layer 12: token=' ?",' id=40907 prob=0.028931
+Layer 13: token=' ?",' id=40907 prob=0.053467
+Layer 14: token=' ?",' id=40907 prob=0.071289
+Layer 15: token=' ?",' id=40907 prob=0.018188
+Layer 16: token='utive' id=6494 prob=0.026978
+Layer 17: token='utive' id=6494 prob=0.074707
+Layer 18: token='utive' id=6494 prob=0.073242
+Layer 19: token='utive' id=6494 prob=0.025635
+Layer 20: token='二的' id=105805 prob=0.036621
+Layer 21: token=' ?**' id=176218 prob=0.036377
+Layer 22: token='二的' id=105805 prob=0.098633
+Layer 23: token='2' id=17 prob=0.068848
+Layer 24: token='2' id=17 prob=0.519531
