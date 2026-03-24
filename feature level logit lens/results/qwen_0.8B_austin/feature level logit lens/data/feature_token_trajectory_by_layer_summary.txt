@@ -1,0 +1,127 @@
+Model: Qwen/Qwen3.5-0.8B
+Prompt: Fact: the capital of the state containing Dallas is
+Requested --feature-layer=-1
+Visualized layers: [1, 4, 6, 9, 11, 14, 16, 19, 21, 24]
+Selection mode: all/sampled layers (sample_count=10)
+
+Trajectory outputs:
+Layer 1: plot=feature_token_trajectory_by_layer_layer_001.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 4: plot=feature_token_trajectory_by_layer_layer_004.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 6: plot=feature_token_trajectory_by_layer_layer_006.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 9: plot=feature_token_trajectory_by_layer_layer_009.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 11: plot=feature_token_trajectory_by_layer_layer_011.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 14: plot=feature_token_trajectory_by_layer_layer_014.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 16: plot=feature_token_trajectory_by_layer_layer_016.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 19: plot=feature_token_trajectory_by_layer_layer_019.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 21: plot=feature_token_trajectory_by_layer_layer_021.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 24: plot=feature_token_trajectory_by_layer_layer_024.png target='Austin'
+  feature=f 2607 peak_act=14.884276 best_pos=0 best_input_token='Fact' target_prob=0.000000
+  feature=f  469 peak_act=14.559081 best_pos=8 best_input_token=' Dallas' target_prob=0.000000
+  feature=f  778 peak_act=14.506354 best_pos=0 best_input_token='Fact' target_prob=0.000000
+  feature=f 3666 peak_act=13.876406 best_pos=0 best_input_token='Fact' target_prob=0.000000
+  feature=f 3441 peak_act=13.320540 best_pos=6 best_input_token=' state' target_prob=0.000000
+  feature=f  190 peak_act=12.795266 best_pos=1 best_input_token=':' target_prob=0.000000
+  feature=f 1155 peak_act=12.677262 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 1830 peak_act=12.674720 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f  142 peak_act=12.546574 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f  913 peak_act=12.524019 best_pos=2 best_input_token=' the' target_prob=0.000135
+

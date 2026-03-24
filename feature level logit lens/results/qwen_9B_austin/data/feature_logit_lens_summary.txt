@@ -1,0 +1,15 @@
+Model: Qwen/Qwen3.5-9B
+Prompt: Fact: the capital of the state containing Dallas is
+Selected layer: 32
+
+Top features and their top predicted token:
+Feature  3639 | act=5.345289 | token='cato' id=184892 | prob=0.035156
+Feature  2637 | act=5.235140 | token='�' id=95729 | prob=0.016602
+Feature   590 | act=5.103645 | token='大典' id=134388 | prob=0.009338
+Feature  2080 | act=4.911960 | token='UCCEEDED' id=51236 | prob=0.006683
+Feature  1666 | act=4.461525 | token='ビア' id=201872 | prob=0.032715
+Feature  3138 | act=4.404963 | token='ημα' id=239210 | prob=0.043945
+Feature   533 | act=4.382703 | token='ambi' id=85358 | prob=0.010010
+Feature  2794 | act=4.289436 | token='ving' id=4261 | prob=0.023315
+Feature  4062 | act=4.269826 | token='Appear' id=28004 | prob=0.007324
+Feature  2466 | act=4.152030 | token=' tâ' id=157867 | prob=0.011597

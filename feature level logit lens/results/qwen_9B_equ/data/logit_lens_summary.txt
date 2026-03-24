@@ -1,0 +1,37 @@
+Model: Qwen/Qwen3.5-9B
+Prompt: 1+1=
+Final-layer next token: 2 (id=17)
+
+Per-layer argmax next token:
+Layer  1: token=' ' id=220 prob=0.026123
+Layer  2: token=' ' id=220 prob=0.010620
+Layer  3: token=' ' id=220 prob=0.015320
+Layer  4: token=' ' id=220 prob=0.023438
+Layer  5: token=' ' id=220 prob=0.018677
+Layer  6: token='!' id=0 prob=0.009338
+Layer  7: token='/=' id=64155 prob=0.010071
+Layer  8: token='/=' id=64155 prob=0.013489
+Layer  9: token='/=' id=64155 prob=0.006653
+Layer 10: token='!' id=0 prob=0.003708
+Layer 11: token='____' id=2062 prob=0.005646
+Layer 12: token='...' id=1076 prob=0.003937
+Layer 13: token='\n' id=198 prob=0.008850
+Layer 14: token='\n' id=198 prob=0.009216
+Layer 15: token='\n' id=198 prob=0.009399
+Layer 16: token='____' id=2062 prob=0.023071
+Layer 17: token='____' id=2062 prob=0.031982
+Layer 18: token='____' id=2062 prob=0.035400
+Layer 19: token='____' id=2062 prob=0.093262
+Layer 20: token='____' id=2062 prob=0.035645
+Layer 21: token='____' id=2062 prob=0.016357
+Layer 22: token='____' id=2062 prob=0.027710
+Layer 23: token='？' id=10992 prob=0.257812
+Layer 24: token='？' id=10992 prob=0.761719
+Layer 25: token='？' id=10992 prob=0.894531
+Layer 26: token='？' id=10992 prob=0.824219
+Layer 27: token='？' id=10992 prob=0.808594
+Layer 28: token='？' id=10992 prob=0.929688
+Layer 29: token='？' id=10992 prob=0.898438
+Layer 30: token='？' id=10992 prob=0.937500
+Layer 31: token='2' id=17 prob=0.468750
+Layer 32: token='2' id=17 prob=0.585938

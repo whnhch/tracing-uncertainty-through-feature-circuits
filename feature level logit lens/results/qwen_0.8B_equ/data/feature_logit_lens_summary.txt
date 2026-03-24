@@ -1,0 +1,15 @@
+Model: Qwen/Qwen3.5-0.8B
+Prompt: 1+1=
+Selected layer: 24
+
+Top features and their top predicted token:
+Feature   117 | act=11.256867 | token='imposta' id=216903 | prob=0.010925
+Feature  1727 | act=10.986141 | token=' rid' id=9003 | prob=0.084961
+Feature   933 | act=9.805184 | token='area' id=4645 | prob=0.012817
+Feature  2457 | act=9.683508 | token='cea' id=70457 | prob=0.015076
+Feature  1313 | act=9.667091 | token='');</' id=80708 | prob=0.021606
+Feature  1061 | act=9.655559 | token='分析和' id=111967 | prob=0.043213
+Feature  3753 | act=9.264111 | token='推移' id=106652 | prob=0.027954
+Feature  1959 | act=8.999620 | token='ECT' id=5750 | prob=0.012085
+Feature  1830 | act=8.895002 | token=' quantities' id=31591 | prob=0.012512
+Feature  3890 | act=8.821616 | token='长' id=95940 | prob=0.106445

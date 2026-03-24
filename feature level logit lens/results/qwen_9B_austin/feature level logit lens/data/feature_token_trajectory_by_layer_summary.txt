@@ -1,0 +1,127 @@
+Model: Qwen/Qwen3.5-9B
+Prompt: Fact: the capital of the state containing Dallas is
+Requested --feature-layer=-1
+Visualized layers: [1, 4, 8, 11, 15, 18, 22, 25, 29, 32]
+Selection mode: all/sampled layers (sample_count=10)
+
+Trajectory outputs:
+Layer 1: plot=feature_token_trajectory_by_layer_layer_001.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 4: plot=feature_token_trajectory_by_layer_layer_004.png target='Austin'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 8: plot=feature_token_trajectory_by_layer_layer_008.png target='Austin'
+  feature=f  461 peak_act=0.070699 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 11: plot=feature_token_trajectory_by_layer_layer_011.png target='Austin'
+  feature=f 3497 peak_act=2.362409 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 2259 peak_act=2.348292 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f  132 peak_act=2.108995 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 3311 peak_act=2.006489 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f  706 peak_act=1.988077 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f  916 peak_act=1.965897 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f   58 peak_act=1.946209 best_pos=0 best_input_token='Fact' target_prob=0.000006
+  feature=f 1210 peak_act=1.883304 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 2776 peak_act=1.875345 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 1402 peak_act=1.873163 best_pos=0 best_input_token='Fact' target_prob=0.000012
+
+Layer 15: plot=feature_token_trajectory_by_layer_layer_015.png target='Austin'
+  feature=f 3520 peak_act=3.426388 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f  212 peak_act=2.984761 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 2571 peak_act=2.764155 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 2585 peak_act=2.653662 best_pos=0 best_input_token='Fact' target_prob=0.000005
+  feature=f 1575 peak_act=2.367876 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 3379 peak_act=2.227451 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 2093 peak_act=2.219797 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 3726 peak_act=2.209910 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 3232 peak_act=2.122062 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f  650 peak_act=2.092893 best_pos=1 best_input_token=':' target_prob=0.000004
+
+Layer 18: plot=feature_token_trajectory_by_layer_layer_018.png target='Austin'
+  feature=f 1327 peak_act=3.233042 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 1077 peak_act=3.121688 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f  365 peak_act=2.686420 best_pos=0 best_input_token='Fact' target_prob=0.000009
+  feature=f 3092 peak_act=2.354494 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f  315 peak_act=2.291377 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f  555 peak_act=2.227754 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f   50 peak_act=1.957804 best_pos=0 best_input_token='Fact' target_prob=0.000007
+  feature=f 2013 peak_act=1.918586 best_pos=0 best_input_token='Fact' target_prob=0.000005
+  feature=f 2876 peak_act=1.854530 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 2580 peak_act=1.728574 best_pos=1 best_input_token=':' target_prob=0.000004
+
+Layer 22: plot=feature_token_trajectory_by_layer_layer_022.png target='Austin'
+  feature=f 3764 peak_act=3.318287 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 2952 peak_act=3.249490 best_pos=1 best_input_token=':' target_prob=0.000005
+  feature=f 3487 peak_act=3.161683 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 2208 peak_act=3.080033 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 2470 peak_act=2.891139 best_pos=2 best_input_token=' the' target_prob=0.000008
+  feature=f 1635 peak_act=2.881323 best_pos=4 best_input_token=' of' target_prob=0.000005
+  feature=f 3978 peak_act=2.851493 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 1255 peak_act=2.783776 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f  276 peak_act=2.774648 best_pos=8 best_input_token=' Dallas' target_prob=0.000008
+  feature=f 1780 peak_act=2.626821 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 25: plot=feature_token_trajectory_by_layer_layer_025.png target='Austin'
+  feature=f 3532 peak_act=5.385612 best_pos=9 best_input_token=' is' target_prob=0.000007
+  feature=f 1502 peak_act=5.229332 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 2987 peak_act=4.763231 best_pos=9 best_input_token=' is' target_prob=0.000006
+  feature=f  168 peak_act=4.696742 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 3891 peak_act=4.567089 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f   13 peak_act=4.524492 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 2270 peak_act=4.522825 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 1821 peak_act=4.381540 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 3868 peak_act=4.288651 best_pos=8 best_input_token=' Dallas' target_prob=0.000004
+  feature=f  663 peak_act=4.201463 best_pos=0 best_input_token='Fact' target_prob=0.000004
+
+Layer 29: plot=feature_token_trajectory_by_layer_layer_029.png target='Austin'
+  feature=f  138 peak_act=9.196095 best_pos=8 best_input_token=' Dallas' target_prob=0.000001
+  feature=f  553 peak_act=9.173532 best_pos=9 best_input_token=' is' target_prob=0.000004
+  feature=f  871 peak_act=8.922408 best_pos=8 best_input_token=' Dallas' target_prob=0.000004
+  feature=f 2884 peak_act=8.375897 best_pos=0 best_input_token='Fact' target_prob=0.000001
+  feature=f 3434 peak_act=8.284288 best_pos=0 best_input_token='Fact' target_prob=0.000003
+  feature=f 1517 peak_act=8.068580 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 1769 peak_act=7.838816 best_pos=0 best_input_token='Fact' target_prob=0.000003
+  feature=f 1635 peak_act=7.819013 best_pos=9 best_input_token=' is' target_prob=0.000007
+  feature=f  770 peak_act=7.730250 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 1197 peak_act=7.646900 best_pos=8 best_input_token=' Dallas' target_prob=0.000004
+
+Layer 32: plot=feature_token_trajectory_by_layer_layer_032.png target='Austin'
+  feature=f 2856 peak_act=10.507812 best_pos=2 best_input_token=' the' target_prob=0.000004
+  feature=f 2288 peak_act=8.983204 best_pos=7 best_input_token=' containing' target_prob=0.000004
+  feature=f 3385 peak_act=8.214564 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 2637 peak_act=7.598846 best_pos=0 best_input_token='Fact' target_prob=0.000001
+  feature=f 1457 peak_act=7.460246 best_pos=1 best_input_token=':' target_prob=0.000004
+  feature=f 3262 peak_act=7.260943 best_pos=1 best_input_token=':' target_prob=0.000005
+  feature=f 1707 peak_act=7.235121 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 3800 peak_act=7.204657 best_pos=0 best_input_token='Fact' target_prob=0.000015
+  feature=f  460 peak_act=7.198156 best_pos=0 best_input_token='Fact' target_prob=0.000004
+  feature=f 3305 peak_act=7.039979 best_pos=0 best_input_token='Fact' target_prob=0.000007
+

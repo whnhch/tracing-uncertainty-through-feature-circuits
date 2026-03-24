@@ -1,0 +1,14 @@
+Model: Qwen/Qwen3.5-9B
+Prompt: Fact: the capital of the state containing Dallas is
+
+Per-token outputs:
+token[0]='Fact' id=16903: token_000_Fact.png, token_000_Fact_best_token_prob.png, token_000_Fact.txt
+token[1]=':' id=25: token_001_token.png, token_001_token_best_token_prob.png, token_001_token.txt
+token[2]=' the' id=279: token_002_the.png, token_002_the_best_token_prob.png, token_002_the.txt
+token[3]=' capital' id=6511: token_003_capital.png, token_003_capital_best_token_prob.png, token_003_capital.txt
+token[4]=' of' id=314: token_004_of.png, token_004_of_best_token_prob.png, token_004_of.txt
+token[5]=' the' id=279: token_005_the.png, token_005_the_best_token_prob.png, token_005_the.txt
+token[6]=' state' id=1528: token_006_state.png, token_006_state_best_token_prob.png, token_006_state.txt
+token[7]=' containing' id=8222: token_007_containing.png, token_007_containing_best_token_prob.png, token_007_containing.txt
+token[8]=' Dallas' id=17986: token_008_Dallas.png, token_008_Dallas_best_token_prob.png, token_008_Dallas.txt
+token[9]=' is' id=369: token_009_is.png, token_009_is_best_token_prob.png, token_009_is.txt

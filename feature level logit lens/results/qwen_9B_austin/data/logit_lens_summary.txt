@@ -1,0 +1,37 @@
+Model: Qwen/Qwen3.5-9B
+Prompt: Fact: the capital of the state containing Dallas is
+Final-layer next token:  Austin (id=18678)
+
+Per-layer argmax next token:
+Layer  1: token=' ' id=220 prob=0.006805
+Layer  2: token=' ' id=220 prob=0.006653
+Layer  3: token='...' id=1076 prob=0.005127
+Layer  4: token='...' id=1076 prob=0.006927
+Layer  5: token='...' id=1076 prob=0.013916
+Layer  6: token='...' id=1076 prob=0.017578
+Layer  7: token='...' id=1076 prob=0.004578
+Layer  8: token='...' id=1076 prob=0.003387
+Layer  9: token='“' id=2005 prob=0.001472
+Layer 10: token=' indeed' id=12456 prob=0.001816
+Layer 11: token=' ' id=220 prob=0.005585
+Layer 12: token=' ' id=220 prob=0.003571
+Layer 13: token=' (' id=318 prob=0.002716
+Layer 14: token=' ' id=220 prob=0.004425
+Layer 15: token=' ' id=220 prob=0.006561
+Layer 16: token=' ' id=220 prob=0.007141
+Layer 17: token=' ' id=220 prob=0.003830
+Layer 18: token='必' id=96398 prob=0.003357
+Layer 19: token='\n' id=1639 prob=0.005524
+Layer 20: token='必' id=96398 prob=0.013062
+Layer 21: token='...' id=1076 prob=0.019775
+Layer 22: token=' capital' id=6511 prob=0.017944
+Layer 23: token=' capitals' id=89798 prob=0.035400
+Layer 24: token='省会' id=122303 prob=0.152344
+Layer 25: token=' Texas' id=7999 prob=0.130859
+Layer 26: token='省会' id=122303 prob=0.073730
+Layer 27: token=' Austin' id=18678 prob=0.492188
+Layer 28: token=' Austin' id=18678 prob=0.390625
+Layer 29: token=' Austin' id=18678 prob=0.316406
+Layer 30: token=' Austin' id=18678 prob=0.906250
+Layer 31: token=' Austin' id=18678 prob=0.707031
+Layer 32: token=' Austin' id=18678 prob=0.824219

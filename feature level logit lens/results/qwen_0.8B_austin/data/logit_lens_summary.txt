@@ -1,0 +1,29 @@
+Model: Qwen/Qwen3.5-0.8B
+Prompt: Fact: the capital of the state containing Dallas is
+Final-layer next token:  Dallas (id=17986)
+
+Per-layer argmax next token:
+Layer  1: token=' indeed' id=12456 prob=0.203125
+Layer  2: token='情况' id=96759 prob=0.010498
+Layer  3: token='was' id=15648 prob=0.007050
+Layer  4: token='is' id=284 prob=0.005371
+Layer  5: token='vous' id=55521 prob=0.011169
+Layer  6: token='idir' id=159582 prob=0.007263
+Layer  7: token='有一个' id=103746 prob=0.010376
+Layer  8: token='idir' id=159582 prob=0.016724
+Layer  9: token='eriksa' id=156405 prob=0.006439
+Layer 10: token='vaard' id=223401 prob=0.070312
+Layer 11: token=' ____' id=29739 prob=0.026611
+Layer 12: token=' ____' id=29739 prob=0.027832
+Layer 13: token=' ____' id=29739 prob=0.033203
+Layer 14: token=' ____' id=29739 prob=0.016113
+Layer 15: token='мену' id=180976 prob=0.012756
+Layer 16: token='…**' id=193691 prob=0.026367
+Layer 17: token='oted' id=8979 prob=0.023804
+Layer 18: token='capital' id=62865 prob=0.017456
+Layer 19: token=' cities' id=9432 prob=0.059326
+Layer 20: token='capital' id=62865 prob=0.123535
+Layer 21: token='capital' id=62865 prob=0.221680
+Layer 22: token='...' id=1076 prob=0.033447
+Layer 23: token='capital' id=62865 prob=0.031738
+Layer 24: token=' Dallas' id=17986 prob=0.255859

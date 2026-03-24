@@ -1,0 +1,15 @@
+Model: Qwen/Qwen3.5-9B
+Prompt: 1+1=
+Selected layer: 32
+
+Top features and their top predicted token:
+Feature   212 | act=5.219822 | token='-/' id=63882 | prob=0.011597
+Feature  1384 | act=4.843236 | token='前世' id=121683 | prob=0.006378
+Feature  2066 | act=4.785954 | token='egas' id=14412 | prob=0.008850
+Feature  3792 | act=4.677146 | token='icos' id=16139 | prob=0.011719
+Feature   589 | act=4.592767 | token='嚏' id=107354 | prob=0.013977
+Feature  1303 | act=4.496667 | token='\n' id=198 | prob=0.011292
+Feature  1079 | act=4.442794 | token='屯' id=107712 | prob=0.007446
+Feature  2718 | act=4.202864 | token=' Suite' id=20337 | prob=0.007019
+Feature  1353 | act=4.130620 | token='oner' id=25728 | prob=0.016113
+Feature  3753 | act=4.035302 | token='sey' id=8246 | prob=0.015137

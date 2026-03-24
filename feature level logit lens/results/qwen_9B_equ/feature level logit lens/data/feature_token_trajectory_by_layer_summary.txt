@@ -1,0 +1,127 @@
+Model: Qwen/Qwen3.5-9B
+Prompt: 1+1=
+Requested --feature-layer=-1
+Visualized layers: [1, 4, 8, 11, 15, 18, 22, 25, 29, 32]
+Selection mode: all/sampled layers (sample_count=10)
+
+Trajectory outputs:
+Layer 1: plot=feature_token_trajectory_by_layer_layer_001.png target='2'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+
+Layer 4: plot=feature_token_trajectory_by_layer_layer_004.png target='2'
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    2 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    6 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+
+Layer 8: plot=feature_token_trajectory_by_layer_layer_008.png target='2'
+  feature=f  826 peak_act=0.039800 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 1414 peak_act=0.010110 best_pos=0 best_input_token='1' target_prob=0.000005
+  feature=f    8 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    4 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    9 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    7 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    3 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    1 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    5 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f    0 peak_act=0.000000 best_pos=0 best_input_token='1' target_prob=0.000004
+
+Layer 11: plot=feature_token_trajectory_by_layer_layer_011.png target='2'
+  feature=f 2259 peak_act=2.702593 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f  132 peak_act=2.683459 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 3497 peak_act=2.669231 best_pos=0 best_input_token='1' target_prob=0.000026
+  feature=f  706 peak_act=2.535803 best_pos=0 best_input_token='1' target_prob=0.000007
+  feature=f 3311 peak_act=2.521384 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f  916 peak_act=2.414783 best_pos=0 best_input_token='1' target_prob=0.000012
+  feature=f 1947 peak_act=2.222829 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 3066 peak_act=2.190263 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 1402 peak_act=2.105358 best_pos=0 best_input_token='1' target_prob=0.000006
+  feature=f 2776 peak_act=2.082223 best_pos=1 best_input_token='+' target_prob=0.000004
+
+Layer 15: plot=feature_token_trajectory_by_layer_layer_015.png target='2'
+  feature=f 3520 peak_act=4.221471 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f  212 peak_act=3.482696 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 2571 peak_act=3.458140 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 2585 peak_act=3.092456 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f  650 peak_act=2.974804 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 3379 peak_act=2.792208 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 1575 peak_act=2.737135 best_pos=0 best_input_token='1' target_prob=0.000010
+  feature=f 2093 peak_act=2.681367 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 3726 peak_act=2.675439 best_pos=0 best_input_token='1' target_prob=0.000008
+  feature=f 3841 peak_act=2.558140 best_pos=0 best_input_token='1' target_prob=0.000024
+
+Layer 18: plot=feature_token_trajectory_by_layer_layer_018.png target='2'
+  feature=f 1327 peak_act=3.957203 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 1077 peak_act=3.467583 best_pos=0 best_input_token='1' target_prob=0.000024
+  feature=f  365 peak_act=2.969701 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f  555 peak_act=2.969246 best_pos=0 best_input_token='1' target_prob=0.000014
+  feature=f  315 peak_act=2.937757 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 2876 peak_act=2.852146 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f   50 peak_act=2.792433 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 3092 peak_act=2.729954 best_pos=0 best_input_token='1' target_prob=0.000013
+  feature=f  388 peak_act=2.614557 best_pos=0 best_input_token='1' target_prob=0.000129
+  feature=f 2013 peak_act=2.503330 best_pos=0 best_input_token='1' target_prob=0.000021
+
+Layer 22: plot=feature_token_trajectory_by_layer_layer_022.png target='2'
+  feature=f 2641 peak_act=3.034571 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f 3882 peak_act=2.452174 best_pos=0 best_input_token='1' target_prob=0.000030
+  feature=f 2084 peak_act=2.387575 best_pos=3 best_input_token='=' target_prob=0.000017
+  feature=f  564 peak_act=2.357154 best_pos=2 best_input_token='1' target_prob=0.000052
+  feature=f 3217 peak_act=2.311088 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f  444 peak_act=2.228540 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f   37 peak_act=2.215943 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f 3567 peak_act=2.191476 best_pos=1 best_input_token='+' target_prob=0.000007
+  feature=f 2614 peak_act=2.119462 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f  345 peak_act=2.030796 best_pos=1 best_input_token='+' target_prob=0.000010
+
+Layer 25: plot=feature_token_trajectory_by_layer_layer_025.png target='2'
+  feature=f 2965 peak_act=4.591526 best_pos=1 best_input_token='+' target_prob=0.000000
+  feature=f 3138 peak_act=3.515154 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 3286 peak_act=3.186336 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 2462 peak_act=3.110081 best_pos=0 best_input_token='1' target_prob=0.000005
+  feature=f 3117 peak_act=3.009133 best_pos=2 best_input_token='1' target_prob=0.000024
+  feature=f  106 peak_act=2.976512 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 2554 peak_act=2.918680 best_pos=2 best_input_token='1' target_prob=0.000004
+  feature=f  570 peak_act=2.910197 best_pos=1 best_input_token='+' target_prob=0.000004
+  feature=f 3553 peak_act=2.788352 best_pos=2 best_input_token='1' target_prob=0.000004
+  feature=f 2824 peak_act=2.741175 best_pos=1 best_input_token='+' target_prob=0.000004
+
+Layer 29: plot=feature_token_trajectory_by_layer_layer_029.png target='2'
+  feature=f 2805 peak_act=7.467481 best_pos=2 best_input_token='1' target_prob=0.000093
+  feature=f 4042 peak_act=7.022891 best_pos=1 best_input_token='+' target_prob=0.000011
+  feature=f 2643 peak_act=6.920835 best_pos=1 best_input_token='+' target_prob=0.000045
+  feature=f  558 peak_act=6.507593 best_pos=1 best_input_token='+' target_prob=0.000099
+  feature=f 3035 peak_act=6.465206 best_pos=2 best_input_token='1' target_prob=0.000015
+  feature=f 2073 peak_act=6.399130 best_pos=1 best_input_token='+' target_prob=0.000012
+  feature=f 3883 peak_act=6.269295 best_pos=2 best_input_token='1' target_prob=0.000009
+  feature=f 3058 peak_act=5.971927 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f  839 peak_act=5.742476 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f  247 peak_act=5.683216 best_pos=0 best_input_token='1' target_prob=0.000004
+
+Layer 32: plot=feature_token_trajectory_by_layer_layer_032.png target='2'
+  feature=f 2637 peak_act=6.576663 best_pos=2 best_input_token='1' target_prob=0.000008
+  feature=f 3705 peak_act=6.204234 best_pos=3 best_input_token='=' target_prob=0.000002
+  feature=f 2856 peak_act=6.190001 best_pos=2 best_input_token='1' target_prob=0.000004
+  feature=f  646 peak_act=6.050753 best_pos=3 best_input_token='=' target_prob=0.000024
+  feature=f 1135 peak_act=5.920134 best_pos=0 best_input_token='1' target_prob=0.000004
+  feature=f 2181 peak_act=5.789940 best_pos=2 best_input_token='1' target_prob=0.000002
+  feature=f 2826 peak_act=5.787535 best_pos=0 best_input_token='1' target_prob=0.000000
+  feature=f  988 peak_act=5.683163 best_pos=3 best_input_token='=' target_prob=0.000011
+  feature=f 2066 peak_act=5.408185 best_pos=2 best_input_token='1' target_prob=0.000000
+  feature=f  371 peak_act=5.396936 best_pos=3 best_input_token='=' target_prob=0.000004
+

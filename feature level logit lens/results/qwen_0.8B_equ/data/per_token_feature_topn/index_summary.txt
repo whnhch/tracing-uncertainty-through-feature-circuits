@@ -1,0 +1,8 @@
+Model: Qwen/Qwen3.5-0.8B
+Prompt: 1+1=
+
+Per-token outputs:
+token[0]='1' id=16: token_000_1.png, token_000_1_best_token_prob.png, token_000_1.txt
+token[1]='+' id=10: token_001_token.png, token_001_token_best_token_prob.png, token_001_token.txt
+token[2]='1' id=16: token_002_1.png, token_002_1_best_token_prob.png, token_002_1.txt
+token[3]='=' id=28: token_003_token.png, token_003_token_best_token_prob.png, token_003_token.txt

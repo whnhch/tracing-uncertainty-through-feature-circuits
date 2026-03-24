@@ -1,0 +1,358 @@
+Model: Qwen/Qwen3.5-9B
+Prompt: 1+1=
+Token position: 1
+Token: '+' (id=10)
+
+Per-layer local top features:
+Layer 1
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 2
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 3
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 4
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 5
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 6
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 7
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 8
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 9
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 10
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 11
+  rank= 1 feature=f 3934 activation=0.018830 best_token='�' best_token_id=97987 best_token_prob=0.000057
+  rank= 2 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 12
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 13
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 14
+  rank= 1 feature=f 2276 activation=0.698235 best_token='insip' best_token_id=163062 best_token_prob=0.014648
+  rank= 2 feature=f 2550 activation=0.435823 best_token='定制化' best_token_id=134952 best_token_prob=0.006531
+  rank= 3 feature=f 1817 activation=0.343276 best_token='omu' best_token_id=180398 best_token_prob=0.029297
+  rank= 4 feature=f  685 activation=0.325915 best_token='山口' best_token_id=143110 best_token_prob=0.031250
+  rank= 5 feature=f 2414 activation=0.253330 best_token='akra' best_token_id=49673 best_token_prob=0.007477
+  rank= 6 feature=f 3174 activation=0.241562 best_token=' Freih' best_token_id=241199 best_token_prob=0.005920
+  rank= 7 feature=f 3464 activation=0.204260 best_token='仇' best_token_id=100332 best_token_prob=0.003082
+  rank= 8 feature=f 1898 activation=0.140466 best_token='报告的' best_token_id=126516 best_token_prob=0.008545
+  rank= 9 feature=f 1041 activation=0.118585 best_token='��' best_token_id=63085 best_token_prob=0.005524
+  rank=10 feature=f 3512 activation=0.092968 best_token='ాయ' best_token_id=165077 best_token_prob=0.003403
+Layer 15
+  rank= 1 feature=f 2916 activation=0.615984 best_token='添' best_token_id=97937 best_token_prob=0.014832
+  rank= 2 feature=f 3209 activation=0.416200 best_token=' ' best_token_id=220 best_token_prob=0.040283
+  rank= 3 feature=f 2272 activation=0.306244 best_token=' Bain' best_token_id=78452 best_token_prob=0.009644
+  rank= 4 feature=f 1506 activation=0.248773 best_token=' Nurse' best_token_id=47144 best_token_prob=0.008606
+  rank= 5 feature=f 2477 activation=0.143861 best_token=' Vat' best_token_id=182501 best_token_prob=0.019409
+  rank= 6 feature=f 3086 activation=0.096966 best_token='bler' best_token_id=74813 best_token_prob=0.009216
+  rank= 7 feature=f 2068 activation=0.023612 best_token='纾' best_token_id=145015 best_token_prob=0.000164
+  rank= 8 feature=f 1715 activation=0.014133 best_token='幸' best_token_id=97205 best_token_prob=0.000033
+  rank= 9 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 16
+  rank= 1 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 2 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    9 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 17
+  rank= 1 feature=f 3176 activation=0.153058 best_token=' Sis' best_token_id=180784 best_token_prob=0.015564
+  rank= 2 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 3 feature=f    3 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 4 feature=f    6 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 5 feature=f    7 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 6 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 7 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 8 feature=f    5 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    8 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    4 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 18
+  rank= 1 feature=f 2624 activation=0.649673 best_token='ecte' best_token_id=174069 best_token_prob=0.011597
+  rank= 2 feature=f  316 activation=0.563413 best_token='oppers' best_token_id=30408 best_token_prob=0.014282
+  rank= 3 feature=f 2992 activation=0.450496 best_token='azi' best_token_id=17281 best_token_prob=0.007385
+  rank= 4 feature=f 3529 activation=0.337081 best_token='ولة' best_token_id=149525 best_token_prob=0.026123
+  rank= 5 feature=f 2886 activation=0.260449 best_token='宿' best_token_id=97943 best_token_prob=0.008057
+  rank= 6 feature=f 1240 activation=0.253148 best_token='elő' best_token_id=160297 best_token_prob=0.017700
+  rank= 7 feature=f 3852 activation=0.032616 best_token='上当' best_token_id=106639 best_token_prob=0.000351
+  rank= 8 feature=f    2 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank= 9 feature=f    1 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+  rank=10 feature=f    0 activation=0.000000 best_token='!' best_token_id=0 best_token_prob=0.000004
+Layer 19
+  rank= 1 feature=f 2443 activation=0.284230 best_token=' representative' best_token_id=17697 best_token_prob=0.007935
+  rank= 2 feature=f 3399 activation=0.259566 best_token='ivs' best_token_id=226310 best_token_prob=0.009827
+  rank= 3 feature=f 1945 activation=0.226865 best_token='该款' best_token_id=147022 best_token_prob=0.006134
+  rank= 4 feature=f  350 activation=0.216365 best_token='utti' best_token_id=162368 best_token_prob=0.031494
+  rank= 5 feature=f   76 activation=0.215532 best_token='盎' best_token_id=101496 best_token_prob=0.004700
+  rank= 6 feature=f 1239 activation=0.182987 best_token='e' best_token_id=68 best_token_prob=0.015991
+  rank= 7 feature=f 2358 activation=0.143615 best_token='被捕' best_token_id=129613 best_token_prob=0.006348
+  rank= 8 feature=f 4020 activation=0.117000 best_token='相似文献' best_token_id=136614 best_token_prob=0.007324
+  rank= 9 feature=f 1753 activation=0.066257 best_token='卷子' best_token_id=146256 best_token_prob=0.002274
+  rank=10 feature=f 2479 activation=0.044285 best_token='ฐ' best_token_id=148576 best_token_prob=0.000828
+Layer 20
+  rank= 1 feature=f 3154 activation=0.617807 best_token='知己' best_token_id=118429 best_token_prob=0.004059
+  rank= 2 feature=f 1069 activation=0.567272 best_token='不听' best_token_id=124511 best_token_prob=0.013000
+  rank= 3 feature=f  149 activation=0.403567 best_token='ơ' best_token_id=37433 best_token_prob=0.014526
+  rank= 4 feature=f 2517 activation=0.343305 best_token='compass' best_token_id=29821 best_token_prob=0.009460
+  rank= 5 feature=f 1869 activation=0.252540 best_token='咬' best_token_id=100263 best_token_prob=0.009155
+  rank= 6 feature=f    4 activation=0.172153 best_token='odi' best_token_id=29466 best_token_prob=0.004547
+  rank= 7 feature=f 1402 activation=0.136487 best_token='OPY' best_token_id=9636 best_token_prob=0.005798
+  rank= 8 feature=f 3146 activation=0.116756 best_token='lach' best_token_id=187746 best_token_prob=0.005157
+  rank= 9 feature=f   27 activation=0.069296 best_token='婴' best_token_id=99014 best_token_prob=0.001282
+  rank=10 feature=f 2961 activation=0.061582 best_token='宕' best_token_id=101565 best_token_prob=0.001740
+Layer 21
+  rank= 1 feature=f 2911 activation=1.366948 best_token=' Hul' best_token_id=222868 best_token_prob=0.066895
+  rank= 2 feature=f 2545 activation=0.737186 best_token='_COMPONENT' best_token_id=38691 best_token_prob=0.023193
+  rank= 3 feature=f 3298 activation=0.570435 best_token='逍遥' best_token_id=113050 best_token_prob=0.006256
+  rank= 4 feature=f 1175 activation=0.511690 best_token='hein' best_token_id=156878 best_token_prob=0.005371
+  rank= 5 feature=f 3955 activation=0.480959 best_token='分站' best_token_id=133580 best_token_prob=0.020752
+  rank= 6 feature=f 3216 activation=0.465938 best_token='oha' best_token_id=62885 best_token_prob=0.009766
+  rank= 7 feature=f   23 activation=0.406843 best_token='entu' best_token_id=159164 best_token_prob=0.005096
+  rank= 8 feature=f 2280 activation=0.352511 best_token='云集' best_token_id=124435 best_token_prob=0.004517
+  rank= 9 feature=f 3468 activation=0.331684 best_token='乎' best_token_id=97091 best_token_prob=0.008789
+  rank=10 feature=f 1542 activation=0.177137 best_token='_symbols' best_token_id=53882 best_token_prob=0.036377
+Layer 22
+  rank= 1 feature=f 1985 activation=1.670480 best_token=' Knight' best_token_id=22268 best_token_prob=0.030640
+  rank= 2 feature=f 2208 activation=1.493740 best_token='ink' best_token_id=741 best_token_prob=0.009094
+  rank= 3 feature=f 2723 activation=1.222948 best_token='当然' best_token_id=100533 best_token_prob=0.020386
+  rank= 4 feature=f 1165 activation=1.212990 best_token='въ' best_token_id=216452 best_token_prob=0.007629
+  rank= 5 feature=f 2828 activation=1.154064 best_token='enter' best_token_id=1883 best_token_prob=0.012695
+  rank= 6 feature=f 2733 activation=1.064352 best_token='acro' best_token_id=47843 best_token_prob=0.008972
+  rank= 7 feature=f 2753 activation=1.039433 best_token='断桥' best_token_id=136365 best_token_prob=0.005707
+  rank= 8 feature=f  812 activation=0.992679 best_token='Than' best_token_id=25234 best_token_prob=0.005493
+  rank= 9 feature=f 1189 activation=0.981473 best_token='abo' best_token_id=45842 best_token_prob=0.024536
+  rank=10 feature=f 3422 activation=0.924365 best_token='ellet' best_token_id=163752 best_token_prob=0.010376
+Layer 23
+  rank= 1 feature=f 3767 activation=1.834958 best_token='asco' best_token_id=76631 best_token_prob=0.014832
+  rank= 2 feature=f 1646 activation=0.990294 best_token=' lév' best_token_id=233687 best_token_prob=0.014282
+  rank= 3 feature=f 4080 activation=0.962208 best_token='agh' best_token_id=32638 best_token_prob=0.028931
+  rank= 4 feature=f  344 activation=0.662197 best_token='azi' best_token_id=17281 best_token_prob=0.026367
+  rank= 5 feature=f    8 activation=0.586453 best_token='`.`' best_token_id=27963 best_token_prob=0.017456
+  rank= 6 feature=f 3961 activation=0.583833 best_token='aire' best_token_id=11657 best_token_prob=0.017822
+  rank= 7 feature=f 1894 activation=0.564243 best_token='bour' best_token_id=14937 best_token_prob=0.047119
+  rank= 8 feature=f 3686 activation=0.508511 best_token='irman' best_token_id=219897 best_token_prob=0.007385
+  rank= 9 feature=f 2027 activation=0.487201 best_token='滴水' best_token_id=120283 best_token_prob=0.020264
+  rank=10 feature=f 3190 activation=0.480565 best_token='节前' best_token_id=133520 best_token_prob=0.073242
+Layer 24
+  rank= 1 feature=f  799 activation=2.062278 best_token='是无' best_token_id=115024 best_token_prob=0.009216
+  rank= 2 feature=f 1204 activation=1.787715 best_token='_emails' best_token_id=75114 best_token_prob=0.046631
+  rank= 3 feature=f 1794 activation=1.787412 best_token='EMAT' best_token_id=242948 best_token_prob=0.008728
+  rank= 4 feature=f  266 activation=1.485524 best_token='inded' best_token_id=16105 best_token_prob=0.015991
+  rank= 5 feature=f  819 activation=1.428933 best_token='ree' best_token_id=740 best_token_prob=0.012878
+  rank= 6 feature=f 1275 activation=1.238516 best_token='篙' best_token_id=108431 best_token_prob=0.072266
+  rank= 7 feature=f 3971 activation=1.229380 best_token=' ir' best_token_id=6021 best_token_prob=0.010864
+  rank= 8 feature=f 1593 activation=1.104185 best_token=' opu' best_token_id=240488 best_token_prob=0.019409
+  rank= 9 feature=f 1635 activation=1.029910 best_token='_LESS' best_token_id=87545 best_token_prob=0.026245
+  rank=10 feature=f 1675 activation=0.934462 best_token='enqueue' best_token_id=59300 best_token_prob=0.006104
+Layer 25
+  rank= 1 feature=f 2658 activation=1.409707 best_token=' đời' best_token_id=170571 best_token_prob=0.014465
+  rank= 2 feature=f 2586 activation=1.347329 best_token='ald' best_token_id=4594 best_token_prob=0.158203
+  rank= 3 feature=f 1684 activation=1.039511 best_token='dom' best_token_id=5425 best_token_prob=0.007629
+  rank= 4 feature=f 2445 activation=0.999746 best_token='اه' best_token_id=148473 best_token_prob=0.038818
+  rank= 5 feature=f 2845 activation=0.915127 best_token='ant' best_token_id=505 best_token_prob=0.013062
+  rank= 6 feature=f 2834 activation=0.894146 best_token='俗' best_token_id=97970 best_token_prob=0.004852
+  rank= 7 feature=f 2241 activation=0.855353 best_token='緣' best_token_id=103103 best_token_prob=0.055908
+  rank= 8 feature=f  354 activation=0.785633 best_token='不惊' best_token_id=139798 best_token_prob=0.051270
+  rank= 9 feature=f 3545 activation=0.771806 best_token='ypy' best_token_id=52411 best_token_prob=0.010925
+  rank=10 feature=f 4026 activation=0.756414 best_token='lick' best_token_id=1166 best_token_prob=0.012207
+Layer 26
+  rank= 1 feature=f  537 activation=3.384688 best_token='一族' best_token_id=119109 best_token_prob=0.014954
+  rank= 2 feature=f 1673 activation=2.943172 best_token='饶' best_token_id=103033 best_token_prob=0.057617
+  rank= 3 feature=f  754 activation=2.936289 best_token='.www' best_token_id=86112 best_token_prob=0.009644
+  rank= 4 feature=f 3031 activation=2.898382 best_token='非物质' best_token_id=106649 best_token_prob=0.013794
+  rank= 5 feature=f 3115 activation=2.876674 best_token='enius' best_token_id=234646 best_token_prob=0.029907
+  rank= 6 feature=f  598 activation=2.685882 best_token='毅' best_token_id=100273 best_token_prob=0.005096
+  rank= 7 feature=f 1053 activation=2.682364 best_token='onna' best_token_id=13072 best_token_prob=0.007477
+  rank= 8 feature=f 1185 activation=2.674508 best_token=' Heard' best_token_id=90861 best_token_prob=0.017822
+  rank= 9 feature=f 1001 activation=2.659253 best_token='巧' best_token_id=97651 best_token_prob=0.013184
+  rank=10 feature=f 3216 activation=2.615330 best_token='ONA' best_token_id=91707 best_token_prob=0.025146
+Layer 27
+  rank= 1 feature=f 3572 activation=6.555312 best_token=' Ist' best_token_id=57480 best_token_prob=0.019653
+  rank= 2 feature=f 2505 activation=5.018502 best_token='ilah' best_token_id=153464 best_token_prob=0.013550
+  rank= 3 feature=f  206 activation=4.901509 best_token='ighton' best_token_id=84746 best_token_prob=0.031250
+  rank= 4 feature=f 2960 activation=4.821521 best_token='菁' best_token_id=103331 best_token_prob=0.013855
+  rank= 5 feature=f 1146 activation=4.675938 best_token='德里' best_token_id=105769 best_token_prob=0.007874
+  rank= 6 feature=f  779 activation=4.567164 best_token='实现营业收入' best_token_id=132136 best_token_prob=0.006958
+  rank= 7 feature=f 1559 activation=4.521351 best_token='acon' best_token_id=21682 best_token_prob=0.010376
+  rank= 8 feature=f 2620 activation=4.469784 best_token='/XML' best_token_id=47003 best_token_prob=0.012451
+  rank= 9 feature=f 2512 activation=4.400460 best_token='lade' best_token_id=210219 best_token_prob=0.008728
+  rank=10 feature=f 3856 activation=4.372445 best_token='bak' best_token_id=67459 best_token_prob=0.004608
+Layer 28
+  rank= 1 feature=f 2357 activation=3.434747 best_token='oger' best_token_id=53578 best_token_prob=0.004913
+  rank= 2 feature=f   93 activation=2.949507 best_token='icar' best_token_id=155129 best_token_prob=0.035645
+  rank= 3 feature=f  288 activation=2.805159 best_token='cean' best_token_id=10880 best_token_prob=0.010803
+  rank= 4 feature=f 3583 activation=2.559184 best_token='iette' best_token_id=203875 best_token_prob=0.019165
+  rank= 5 feature=f 1716 activation=2.332017 best_token='名' best_token_id=96009 best_token_prob=0.052490
+  rank= 6 feature=f 1076 activation=2.328924 best_token='auta' best_token_id=162856 best_token_prob=0.012939
+  rank= 7 feature=f 1319 activation=2.235409 best_token='eko' best_token_id=94292 best_token_prob=0.010986
+  rank= 8 feature=f  946 activation=2.123817 best_token='�' best_token_id=95885 best_token_prob=0.023560
+  rank= 9 feature=f 3372 activation=2.106294 best_token='cean' best_token_id=10880 best_token_prob=0.005920
+  rank=10 feature=f 2471 activation=2.083202 best_token='alom' best_token_id=79196 best_token_prob=0.008606
+Layer 29
+  rank= 1 feature=f 2805 activation=7.467481 best_token='一去' best_token_id=134127 best_token_prob=0.056396
+  rank= 2 feature=f 2643 activation=6.416888 best_token='铛' best_token_id=108501 best_token_prob=0.018188
+  rank= 3 feature=f 3883 activation=6.269295 best_token='招' best_token_id=96528 best_token_prob=0.125000
+  rank= 4 feature=f 3024 activation=5.503036 best_token='管理部' best_token_id=123187 best_token_prob=0.040283
+  rank= 5 feature=f 3526 activation=5.117473 best_token='oproject' best_token_id=59279 best_token_prob=0.019653
+  rank= 6 feature=f 2884 activation=5.088760 best_token='对于这个' best_token_id=138283 best_token_prob=0.007019
+  rank= 7 feature=f 3594 activation=5.001474 best_token='pyx' best_token_id=82409 best_token_prob=0.010254
+  rank= 8 feature=f 2781 activation=4.912035 best_token='usa' best_token_id=29748 best_token_prob=0.015137
+  rank= 9 feature=f 2564 activation=4.866738 best_token='寸' best_token_id=98716 best_token_prob=0.015747
+  rank=10 feature=f 1498 activation=4.791493 best_token='umper' best_token_id=23276 best_token_prob=0.017700
+Layer 30
+  rank= 1 feature=f  979 activation=5.945565 best_token='ive' best_token_id=520 best_token_prob=0.010193
+  rank= 2 feature=f 2929 activation=5.868544 best_token='assi' best_token_id=78732 best_token_prob=0.004852
+  rank= 3 feature=f  634 activation=5.685147 best_token='inals' best_token_id=22953 best_token_prob=0.025146
+  rank= 4 feature=f 3736 activation=5.275900 best_token='数码' best_token_id=104435 best_token_prob=0.020508
+  rank= 5 feature=f 2902 activation=5.057842 best_token='何以' best_token_id=120117 best_token_prob=0.015320
+  rank= 6 feature=f  803 activation=4.596062 best_token='协会会员' best_token_id=130036 best_token_prob=0.006500
+  rank= 7 feature=f 3832 activation=4.543394 best_token='留守' best_token_id=105995 best_token_prob=0.010742
+  rank= 8 feature=f 3384 activation=4.531044 best_token='etje' best_token_id=189198 best_token_prob=0.007294
+  rank= 9 feature=f 1446 activation=4.516931 best_token='še' best_token_id=55062 best_token_prob=0.017456
+  rank=10 feature=f 3795 activation=4.488222 best_token='heen' best_token_id=214465 best_token_prob=0.029541
+Layer 31
+  rank= 1 feature=f 2910 activation=13.125748 best_token='uce' best_token_id=10208 best_token_prob=0.038086
+  rank= 2 feature=f  802 activation=12.330732 best_token='鹭' best_token_id=103579 best_token_prob=0.025513
+  rank= 3 feature=f  599 activation=12.023813 best_token='utsch' best_token_id=23005 best_token_prob=0.006714
+  rank= 4 feature=f 3308 activation=11.359420 best_token='ouver' best_token_id=14396 best_token_prob=0.011536
+  rank= 5 feature=f 3856 activation=11.241051 best_token='orse' best_token_id=10519 best_token_prob=0.008484
+  rank= 6 feature=f 3436 activation=11.232226 best_token='ly' best_token_id=391 best_token_prob=0.010376
+  rank= 7 feature=f 2352 activation=11.214345 best_token='Scalars' best_token_id=52192 best_token_prob=0.006805
+  rank= 8 feature=f 3029 activation=11.132251 best_token='��' best_token_id=95234 best_token_prob=0.009277
+  rank= 9 feature=f 1824 activation=11.092906 best_token='婕' best_token_id=108305 best_token_prob=0.010071
+  rank=10 feature=f 1915 activation=10.514260 best_token='letes' best_token_id=13482 best_token_prob=0.014160
+Layer 32
+  rank= 1 feature=f 2637 activation=6.576663 best_token='�' best_token_id=95729 best_token_prob=0.016602
+  rank= 2 feature=f 3705 activation=6.204235 best_token='laus' best_token_id=55312 best_token_prob=0.076660
+  rank= 3 feature=f  646 activation=6.050753 best_token='筹' best_token_id=97615 best_token_prob=0.010010
+  rank= 4 feature=f 2181 activation=5.789941 best_token='ean' best_token_id=5139 best_token_prob=0.053711
+  rank= 5 feature=f  988 activation=5.683163 best_token='学生工作' best_token_id=138805 best_token_prob=0.064941
+  rank= 6 feature=f  371 activation=5.396937 best_token='verk' best_token_id=172871 best_token_prob=0.007294
+  rank= 7 feature=f 1963 activation=5.254706 best_token='初次' best_token_id=114512 best_token_prob=0.007996
+  rank= 8 feature=f 2066 activation=5.228545 best_token='egas' best_token_id=14412 best_token_prob=0.008850
+  rank= 9 feature=f 1406 activation=5.047951 best_token='备' best_token_id=96228 best_token_prob=0.081543
+  rank=10 feature=f  777 activation=4.981969 best_token='ስ' best_token_id=169542 best_token_prob=0.049316
