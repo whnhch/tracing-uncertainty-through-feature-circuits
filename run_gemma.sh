@@ -14,8 +14,10 @@
 set -e
 mkdir -p logs
 
+module load cuda/12.4.0
+module load python/3.12.12
+
 # Point HuggingFace cache to scratch space to avoid home quota issues.
-# Change this path to your actual scratch directory.
 export HF_HOME=/scratch/$USER/hf_cache
 
 source .venv/bin/activate
