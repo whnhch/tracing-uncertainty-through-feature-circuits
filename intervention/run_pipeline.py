@@ -48,10 +48,11 @@ def load_model_and_saes(cfg: ExperimentConfig):
     print(f"[setup] device: {dev}")
     print(f"[setup] loading model: {cfg.model.model_name}")
 
-    model = HookedTransformer.from_pretrained(
-        cfg.model.model_name,
-        device=dev,
-    )
+    load_kwargs = {"device": dev}
+    if cfg.model.dtype is not None:
+        load_kwargs["dtype"] = cfg.model.dtype
+
+    model = HookedTransformer.from_pretrained(cfg.model.model_name, **load_kwargs)
     model.eval()
 
     print(f"[setup] loading SAEs for layers: {cfg.model.layers_to_analyze}")

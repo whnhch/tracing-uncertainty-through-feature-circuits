@@ -6,6 +6,7 @@ To switch models, change ACTIVE_MODEL at the bottom of this file.
 import torch
 from dataclasses import dataclass, field
 from typing import Optional
+import torch as _torch
 
 
 @dataclass
@@ -31,6 +32,9 @@ class ModelConfig:
     # Batch size tuned for this model on the target device
     batch_size_local: int   # MPS / CPU
     batch_size_server: int  # CUDA
+    # dtype to load the model in. None = TransformerLens default (float32).
+    # Use torch.bfloat16 for large models to avoid OOM.
+    dtype: Optional[_torch.dtype]
     # Entropy threshold for "confident" prompt selection.
     # Tune per-model: GPT-2 Small has high entropy (~4.8 mean on TriviaQA);
     # Gemma-2 9B is much more accurate so a tighter threshold applies.
@@ -60,6 +64,7 @@ MODEL_CONFIGS: dict[str, ModelConfig] = {
         layers_to_analyze=[0, 3, 6, 9, 10, 11],
         batch_size_local=16,
         batch_size_server=64,
+        dtype=None,  # float32 fine for 117M params
         entropy_confident_threshold=4.0,  # GPT-2 Small mean entropy on TriviaQA ~4.8
     ),
     # -------------------------------------------------------------------------
@@ -70,7 +75,7 @@ MODEL_CONFIGS: dict[str, ModelConfig] = {
     # Run on school GPU servers (fits in 32 GB at float16, ~18 GB).
     # -------------------------------------------------------------------------
     "gemma-2-9b": ModelConfig(
-        model_name="google/gemma-2-9b",
+        model_name="gemma-2-9b",  # TransformerLens name — NOT the HuggingFace path
         sae_release="gemma-scope-9b-pt-res",
         sae_id_template="",  # not used — sae_ids takes precedence
         sae_ids={
@@ -85,6 +90,7 @@ MODEL_CONFIGS: dict[str, ModelConfig] = {
         layers_to_analyze=[8, 16, 24, 32, 40],
         batch_size_local=2,
         batch_size_server=16,
+        dtype=_torch.bfloat16,  # float32 = ~36GB (OOM); bfloat16 = ~18GB
         entropy_confident_threshold=2.0,  # Gemma-2 9B is accurate; expect low entropy
     ),
 }

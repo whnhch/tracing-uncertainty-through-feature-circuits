@@ -87,5 +87,5 @@ To switch models, either pass `--model` on the command line or change
 
 | Model | Use case | Fits in 32 GB? | Est. full pipeline |
 |---|---|---|---|
-| `pythia-1.4b` | Local development, fast iteration | Yes | ~3–6 hrs (M2 Max) |
+| `gpt2-small` | Local development, fast iteration | Yes | ~6–7 hrs (M2 Max) |
 | `gemma-2-9b` | Full experiment results | Yes (~18 GB) | ~1–3 hrs (A100) |
