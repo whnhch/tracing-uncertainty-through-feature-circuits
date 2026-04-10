@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=uncertainty-tracing
-#SBATCH --gres=gpu:a100:1
+#SBATCH --gres=gpu:h200_3g.71gb:1
 #SBATCH --mem=64G
 #SBATCH --cpus-per-task=8
 #SBATCH --time=08:00:00
@@ -17,8 +17,6 @@ mkdir -p logs
 module load cuda/12.4.0
 module load python/3.12.12
 
-# Point HuggingFace cache to scratch space to avoid home quota issues.
-export HF_HOME=/scratch/$USER/hf_cache
 
 source .venv/bin/activate
 
