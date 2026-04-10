@@ -4,5 +4,7 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 intervention/checkpoints/
+intervention/figures/
+logs/
 *.pt
 *.safetensors
