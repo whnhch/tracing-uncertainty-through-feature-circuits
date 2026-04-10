@@ -3,7 +3,7 @@
 #SBATCH --gres=gpu:h200_3g.71gb:1
 #SBATCH --mem=64G
 #SBATCH --cpus-per-task=8
-#SBATCH --time=08:00:00
+#SBATCH --time=24:00:00
 #SBATCH --output=logs/gemma_%j.out
 #SBATCH --error=logs/gemma_%j.err
 
@@ -23,6 +23,8 @@ source .venv/bin/activate
 echo "Job started: $(date)"
 echo "Node: $SLURMD_NODENAME"
 echo "GPU: $(nvidia-smi --query-gpu=name --format=csv,noheader)"
+
+export HUGGING_FACE_HUB_TOKEN=$(cat ~/.cache/huggingface/token)
 
 python intervention/run_pipeline.py --model gemma-2-9b
 
