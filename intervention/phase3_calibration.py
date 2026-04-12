@@ -170,7 +170,7 @@ def run_phase3(
         results dict (also saved to checkpoint)
     """
     dev = device()
-    sentence_encoder = SentenceTransformer(cfg.sentence_encoder_model)
+    sentence_encoder = SentenceTransformer(cfg.sentence_encoder_model, device=dev)
 
     confident_indices = phase2_results["confident_prompt_indices"]
     confident_data = PromptBatch(
@@ -199,15 +199,28 @@ def run_phase3(
         sae = saes[layer_idx]
         layer_phase2 = phase2_results["per_layer"][layer_idx]
 
-        print(f"[phase3] layer {layer_idx}: classifying {len(layer_phase2)} features...")
+        # Limit to top-N features by absolute ablation entropy delta to cut runtime.
+        # Phase 2 stores all top_k_features; we only classify the strongest signal.
+        feature_items = list(layer_phase2.items())
+        if cfg.phase3_top_k < len(feature_items):
+            feature_items = sorted(
+                feature_items,
+                key=lambda kv: abs((kv[1]["ablation"]["post_entropy"] - kv[1]["pre_entropy"]).mean().item()),
+                reverse=True,
+            )[:cfg.phase3_top_k]
+
+        print(f"[phase3] layer {layer_idx}: classifying {len(feature_items)} / "
+              f"{len(layer_phase2)} features "
+              f"({'ablation only' if cfg.phase3_ablation_only else 'all interventions'})...")
         layer_results = {}
 
-        for feature_idx, feat_data in layer_phase2.items():
+        for feature_idx, feat_data in feature_items:
             feature_results = {}
 
             interventions_to_classify = [("ablation", None, feat_data["ablation"])]
-            for scale, amp_data in feat_data["amplification"].items():
-                interventions_to_classify.append(("amplification", scale, amp_data))
+            if not cfg.phase3_ablation_only:
+                for scale, amp_data in feat_data["amplification"].items():
+                    interventions_to_classify.append(("amplification", scale, amp_data))
 
             for mode, scale, iv_data in interventions_to_classify:
                 pre_entropy = feat_data["pre_entropy"]

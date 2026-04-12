@@ -127,8 +127,19 @@ class ExperimentConfig:
     min_entropy_delta: float = 0.05
     # Sentence encoder model for semantic similarity
     sentence_encoder_model: str = "all-MiniLM-L6-v2"
-    # Max tokens to generate for hedging / calibration checks
-    generation_max_tokens: int = 50
+    # Max tokens to generate for hedging / calibration checks.
+    # 15 is enough for semantic similarity and hedging detection; 50 causes
+    # ~27 hrs of generation on an L40S due to no KV cache in run_with_hooks.
+    generation_max_tokens: int = 15
+    # Only run generation-based classification for ablations.
+    # Amplification results are supplementary; their entropy/coherence data
+    # already exists in the Phase 2 checkpoint. Skipping amp generation gives
+    # a 3× speedup in Phase 3 with no loss to the primary ablation results.
+    phase3_ablation_only: bool = True
+    # How many top features per layer to classify in Phase 3.
+    # Phase 2 stores top_k_features (50); we only need the strongest signal.
+    # Reducing to 25 gives a 2× speedup with minimal loss of interesting results.
+    phase3_top_k: int = 25
 
     # ---- checkpointing ------------------------------------------------------
     checkpoint_dir: str = "intervention/checkpoints"
