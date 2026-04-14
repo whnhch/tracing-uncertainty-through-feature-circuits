@@ -17,15 +17,6 @@ Output (saved to checkpoint):
             "correlations":     Tensor [n_features],  # Spearman rho per feature
             "top_feature_ids":  Tensor [top_k],       # indices of top correlated features
             "top_correlations": Tensor [top_k],
-                        "top_features_debug": [
-                                {
-                                        "feature_id": int,
-                                        "correlation": float,
-                                        "representative_prompt_indices": list[int],
-                                        "representative_prompts": list[str],
-                                },
-                                ...
-                        ],
         }
     }
   }
@@ -41,25 +32,6 @@ from sae_lens import SAE
 from config import ExperimentConfig, device
 from dataset import PromptBatch, get_batches
 from utils import output_entropy, correct_answer_in_top_k, save_checkpoint, checkpoint_exists
-
-
-def _top_activation_prompt_examples(
-    feature_acts: np.ndarray,
-    prompts: list[str],
-    top_n: int = 3,
-) -> tuple[list[int], list[str]]:
-    """
-    Return the top prompt indices/texts with the highest activation for one feature.
-    """
-    if feature_acts.size == 0 or len(prompts) == 0:
-        return [], []
-
-    k = min(top_n, feature_acts.shape[0], len(prompts))
-    # Highest activation first.
-    top_indices = np.argsort(feature_acts)[-k:][::-1]
-    top_idx_list = [int(i) for i in top_indices]
-    top_prompt_list = [prompts[i] for i in top_idx_list]
-    return top_idx_list, top_prompt_list
 
 
 def _extract_sae_activations_and_entropy(
@@ -194,29 +166,10 @@ def run_phase1(
         # Restore sign
         top_correlations = correlations_t[top_feature_ids]
 
-        top_features_debug = []
-        for rank in range(top_k):
-            feat_id = int(top_feature_ids[rank].item())
-            feat_corr = float(top_correlations[rank].item())
-            prompt_indices, prompt_texts = _top_activation_prompt_examples(
-                feature_acts=acts[:, feat_id],
-                prompts=data.questions,
-                top_n=3,
-            )
-            top_features_debug.append(
-                {
-                    "feature_id": feat_id,
-                    "correlation": feat_corr,
-                    "representative_prompt_indices": prompt_indices,
-                    "representative_prompts": prompt_texts,
-                }
-            )
-
         per_layer[layer_idx] = {
             "correlations": correlations_t,
             "top_feature_ids": top_feature_ids,
             "top_correlations": top_correlations,
-            "top_features_debug": top_features_debug,
         }
 
         print(f"  top-5 corr: {top_correlations[:5].tolist()}")
